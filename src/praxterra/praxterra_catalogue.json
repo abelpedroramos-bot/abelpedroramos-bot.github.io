@@ -1,0 +1,168 @@
+{
+  "section": {
+    "path": "praxterra",
+    "title": "PRAXTERRA sustainability tools",
+    "standard_name": "PRAXTERRA PT-SMS-001 Version 1.0 (Edition 1)",
+    "standard_url": "https://praxterra.com/standard",
+    "contact_email": "info@praxterra.com"
+  },
+  "products": [
+    {
+      "slug": "self-assessment-tool",
+      "order": 1,
+      "name": "PRAXTERRA Sustainability Self-Assessment Tool (Excel)",
+      "short_name": "Self-Assessment Tool",
+      "price_eur_ex_vat": "39.00",
+      "etsy_listing": "4605804749",
+      "gumroad_slug": "praxterra-self-assessment-tool",
+      "gumroad_url": "",
+      "web_zip": "PRAXTERRA_Self-Assessment_Tool_v1.0_web.zip",
+      "formats": ["XLSX", "PDF"],
+      "card": "Score your organisation against the 40 requirements of the PRAXTERRA standard, level by level, and see where you stand.",
+      "intro": "Score your organisation against the PRAXTERRA sustainability management standard (PT-SMS-001) and see where you stand.",
+      "does_title": "What it does",
+      "does": [
+        "Scores all 40 requirements, level by level, from 0 (absent) to 3 (complete)",
+        "Checks each level's pass rules automatically, using the thresholds published in the standard",
+        "Shows topic scores, gaps and suggested next actions",
+        "Includes an evidence register and an action log",
+        "Prints a one-page Self-Assessment Result Report"
+      ],
+      "includes": [
+        "PRAXTERRA Self-Assessment Tool (Excel workbook)",
+        "The PRAXTERRA standard, Version 1.0 (Edition 1), PDF, 55 pages",
+        "Level 1 Quick-Start Checklist (PDF, 2 pages)",
+        "README and licence terms"
+      ],
+      "good_for": "Small and medium organisations, construction and renovation companies, workshops, offices, agri-food and logistics businesses, and HSE or quality managers who want a practical system without paying for a heavy one.",
+      "upsell": "Want the records and a 30-day plan too? The Starter Kit has the tool, the ten records and a getting-started guide.",
+      "alts": [
+        "PRAXTERRA Self-Assessment Tool: cover of the standard and the results sheet of a fictional worked example",
+        "What's inside the Self-Assessment Tool download: workbook, standard, Level 1 checklist, README and licence"
+      ]
+    },
+    {
+      "slug": "records-pack",
+      "order": 2,
+      "name": "PRAXTERRA Records Pack (Templates T01–T10)",
+      "short_name": "Records Pack T01–T10",
+      "price_eur_ex_vat": "29.00",
+      "etsy_listing": "4605805671",
+      "gumroad_slug": "praxterra-records-pack",
+      "gumroad_url": "",
+      "web_zip": "PRAXTERRA_Records_Pack_v1.0_web.zip",
+      "formats": ["XLSX", "PDF"],
+      "card": "Ten ready-made records for scope, effects, actions, controls, waste, suppliers, people, incidents and review.",
+      "intro": "Ten ready-made records that help you put the PRAXTERRA standard into practice.",
+      "does_title": "The ten records",
+      "does": [
+        "T01 Direction and scope",
+        "T02 Effects, priorities and obligations",
+        "T03 Decisions, objectives and actions",
+        "T04 Workplace controls and readiness",
+        "T05 Materials and waste",
+        "T06 Performance information",
+        "T07 Suppliers and purchasing",
+        "T08 People and communication",
+        "T09 Incidents, concerns and correction",
+        "T10 Assessment and review"
+      ],
+      "does_note": "Each record has column guidance, drop-down lists and a fictional example of a completed entry.",
+      "includes": [
+        "PRAXTERRA Records T01–T10 (Excel workbook)",
+        "The PRAXTERRA standard, Version 1.0 (Edition 1), PDF, 55 pages",
+        "Level 1 Quick-Start Checklist (PDF, 2 pages)",
+        "README and licence terms"
+      ],
+      "good_for": "Organisations that already know where they stand and need simple, consistent records to keep the evidence in one place.",
+      "upsell": "Need the scoring tool as well? The Starter Kit has both, and costs €9 less than buying them separately.",
+      "alts": [
+        "PRAXTERRA Records Pack: the T04 workplace controls record, the Level 1 checklist and the standard",
+        "What's inside the Records Pack download: workbook, standard, Level 1 checklist, README and licence"
+      ]
+    },
+    {
+      "slug": "starter-kit",
+      "order": 3,
+      "name": "PRAXTERRA Sustainability Management Starter Kit",
+      "short_name": "Starter Kit",
+      "price_eur_ex_vat": "59.00",
+      "badge": "Save €9",
+      "etsy_listing": "4605825114",
+      "gumroad_slug": "praxterra-starter-kit",
+      "gumroad_url": "",
+      "web_zip": "PRAXTERRA_Starter_Kit_v1.0_web.zip",
+      "formats": ["XLSX", "PDF"],
+      "card": "The Self-Assessment Tool, the ten records and a 30-day Quick-Start guide in one download.",
+      "intro": "The self-assessment tool, the ten records and a getting-started guide in one download, for small organisations setting up the PRAXTERRA standard and working towards a first Level 1 self-assessment.",
+      "does_title": "What you get",
+      "does": [
+        "Self-Assessment Tool (Excel): scoring, pass-rule checks, results and the Self-Assessment Result Report",
+        "Records Pack T01–T10 (Excel): ten records with guidance and examples",
+        "Quick-Start Guide \"Your first 30 days\" (PDF, 6 pages): a suggested week-by-week plan for getting started. How long your organisation needs depends on its size and starting point."
+      ],
+      "does_note": "You save €9 against buying the tool and the records separately.",
+      "includes": [
+        "Self-Assessment Tool (Excel workbook)",
+        "Records Pack T01–T10 (Excel workbook)",
+        "Quick-Start Guide \"Your first 30 days\" (PDF, 6 pages)",
+        "The PRAXTERRA standard, Version 1.0 (Edition 1), PDF, 55 pages, and the Level 1 Quick-Start Checklist",
+        "README and licence terms"
+      ],
+      "good_for": "Small organisations setting up the standard for the first time and working towards a Level 1 self-assessment.",
+      "upsell": "Training your own people or presenting results to leadership? The Professional Toolkit adds training decks, a worked example and the Result Report Templates.",
+      "alts": [
+        "PRAXTERRA Starter Kit: the standard, the 30-day Quick-Start guide and the results sheet of a fictional worked example",
+        "What's inside the Starter Kit download: two workbooks, Quick-Start guide, standard, checklist, README and licence"
+      ]
+    },
+    {
+      "slug": "professional-toolkit",
+      "order": 4,
+      "name": "PRAXTERRA Sustainability Professional Toolkit",
+      "short_name": "Professional Toolkit",
+      "price_eur_ex_vat": "129.00",
+      "badge": "Most complete",
+      "etsy_listing": "4605825826",
+      "gumroad_slug": "praxterra-professional-toolkit",
+      "gumroad_url": "",
+      "web_zip": "PRAXTERRA_Professional_Toolkit_v1.0_web.zip",
+      "formats": ["XLSX", "DOCX", "PDF"],
+      "card": "Everything in the Starter Kit, plus a worked example, two training decks and the Result Report Templates.",
+      "intro": "For implementers and HSE managers: everything in the Starter Kit, plus material to train your own people and present results inside your organisation.",
+      "does_title": "What you get",
+      "does": [
+        "Everything in the Starter Kit: tool, records, 30-day guide, standard and checklist",
+        "Filled worked example: a fictional 14-person renovation contractor, with the tool and records completed. It reaches Level 1 under the standard's scoring but not yet Level 2, and the example shows why.",
+        "Implementer training deck: 32 slides (PDF), material for a one-day internal course",
+        "Management briefing deck: 13 slides (PDF), the case and the decisions leadership must take",
+        "Result Report Templates: an editable Word template for the Self-Assessment Result Report, with the required disclosure built in, and a designed specimen (PDF)"
+      ],
+      "does_note": "The Result Report Templates carry a fixed self-assessment disclosure that must not be removed.",
+      "includes": [
+        "Self-Assessment Tool and Records Pack T01–T10 (Excel workbooks)",
+        "Worked example: tool and records filled in for a fictional contractor (Excel)",
+        "Quick-Start Guide \"Your first 30 days\" (PDF, 6 pages)",
+        "Implementer training deck, 32 slides, and management briefing deck, 13 slides (PDF)",
+        "Result Report Templates: editable Word template and designed specimen (PDF)",
+        "The PRAXTERRA standard, Version 1.0 (Edition 1), PDF, 55 pages, and the Level 1 Quick-Start Checklist",
+        "README and licence terms"
+      ],
+      "good_for": "Implementers, HSE and quality managers who will run PRAXTERRA inside their own organisation, train colleagues and report results to leadership.",
+      "upsell": "",
+      "alts": [
+        "PRAXTERRA Professional Toolkit: implementer training deck, management briefing deck, 30-day guide and the Result Report specimen",
+        "What's inside the Professional Toolkit download: workbooks, worked example, guide, training decks, Result Report Templates, standard, checklist, README and licence"
+      ]
+    }
+  ],
+  "compare": [
+    ["Self-Assessment Tool (Excel)", [1, 0, 1, 1]],
+    ["Records Pack T01–T10 (Excel)", [0, 1, 1, 1]],
+    ["Quick-Start Guide: your first 30 days", [0, 0, 1, 1]],
+    ["Worked example (fictional contractor)", [0, 0, 0, 1]],
+    ["Implementer and management training decks", [0, 0, 0, 1]],
+    ["Result Report Templates (Word + PDF)", [0, 0, 0, 1]],
+    ["The standard, Version 1.0 (Edition 1), and Level 1 checklist", [1, 1, 1, 1]]
+  ]
+}

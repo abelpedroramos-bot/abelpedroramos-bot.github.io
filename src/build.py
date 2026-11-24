@@ -8,7 +8,7 @@ One file drives every page: src/catalogue.json.  Run from anywhere:
 See src/README.md for how to add a product, a variant, an edition or a language.
 No third-party packages are needed (Python 3.8+).
 """
-import html, json, os, shutil, sys
+import html, json, os, shutil, subprocess, sys
 from datetime import date
 
 SRC = os.path.dirname(os.path.abspath(__file__))
@@ -108,7 +108,8 @@ def nav_html(current):
              f'<a href="{topic_url("management-systems")}"{cur("management-systems")}>Management System Packs</a>']
     if SITE.get('free_sample_url'):
         items.append(f'<a href="{SITE["free_sample_url"]}"{cur("free")}>Free sample</a>')
-    items += [f'<a href="/about/"{cur("about")}>About</a>', f'<a href="/help/"{cur("help")}>Help</a>']
+    items += [f'<a href="/praxterra/"{cur("praxterra")}>PRAXTERRA</a>',
+             f'<a href="/about/"{cur("about")}>About</a>', f'<a href="/help/"{cur("help")}>Help</a>']
     return ''.join(items)
 
 def page(title, desc, body, path, current='', gumroad=False, og_image=''):
@@ -159,7 +160,7 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
 <a href="mailto:{EMAIL}" style="text-decoration:none;font-weight:700;color:#FFFFFF">{EMAIL}</a>
 </div>
 <nav aria-label="Footer">
-<div><b>Shop</b>{shop_links}<a href="{topic_url('bundles')}">Bundles</a><a href="{topic_url('management-systems')}">Management System Packs</a><a href="/shop/">All products</a></div>
+<div><b>Shop</b>{shop_links}<a href="{topic_url('bundles')}">Bundles</a><a href="{topic_url('management-systems')}">Management System Packs</a><a href="/shop/">All products</a><a href="/praxterra/">PRAXTERRA</a></div>
 <div><b>Help</b><a href="/help/licence/">Licence</a><a href="/help/refunds/">Refunds</a><a href="/help/faq/">FAQ</a><a href="/help/contact/">Contact</a></div>
 <div><b>Legal</b><a href="/legal/terms/">Terms of sale</a><a href="/legal/privacy/">Privacy policy</a><a href="/legal/imprint/">Seller information</a></div>
 <div><b>Video courses on Udemy</b>{course_links}</div>
@@ -362,6 +363,10 @@ def shop_page():
     return page('All products | Field Ready QHSE', 'Every Field Ready QHSE pack, by topic.', body, '/shop/', 'shop')
 
 def home_page():
+    px_home = ''
+    hb = os.path.join(SRC, 'praxterra', 'home_block.html')
+    if os.path.isfile(hb):
+        px_home = open(hb, encoding='utf-8').read()
     topics = [t for t in CAT['topics'] if t.get('kind') == 'topic']
     tiles = ''.join(f'<a class="tile" style="--c:{t["colour"]}" href="{topic_url(t["key"])}"><b>{e(t["name"])}</b><span>{e(t["tile"])}</span><em>{sum(1 for f in FAM if in_topic(f, t["key"]))} packs →</em></a>' for t in topics)
     ms = sorted([f for f in FAM if in_topic(f, 'management-systems')], key=lambda x: x.get('order', 99))
@@ -402,6 +407,7 @@ def home_page():
 <div class="section-head"><div><h2 id="bd-h">Bundles</h2><p class="lead">Several packs in one download, for less than buying them one by one.</p></div><a class="btn btn-outline btn-sm" href="{topic_url('bundles')}">See all</a></div>
 {grid(bd)}
 </div></section>
+{px_home}
 <section class="section section-alt" aria-labelledby="how-h"><div class="wrap">
 <h2 id="how-h" style="margin-bottom:28px">How it works</h2>
 <div class="steps">
@@ -493,6 +499,13 @@ def main():
         write(url_of(f), product_page(f))
     build_text_pages()
     write('/404.html', notfound())
+    px = os.path.join(SRC, 'praxterra', 'build_praxterra.py')
+    if os.path.isfile(px):
+        subprocess.check_call([sys.executable, px, '--site-root', OUT])
+        for u in ['/praxterra/', '/praxterra/self-assessment-tool/', '/praxterra/records-pack/',
+                  '/praxterra/starter-kit/', '/praxterra/professional-toolkit/', '/praxterra/licence/']:
+            if u not in WRITTEN:
+                WRITTEN.append(u)
     with open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8') as fh:
         fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
                  ''.join(f'<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in WRITTEN) + '</urlset>\n')
