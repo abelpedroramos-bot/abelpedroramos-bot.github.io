@@ -1,0 +1,2006 @@
+{
+ "site": {
+  "domain": "https://fieldreadyqhse.com",
+  "name": "Field Ready QHSE",
+  "language": "en",
+  "email": "hello@fieldreadyqhse.com",
+  "seller": "Field Ready QHSE",
+  "location": "Viana do Castelo, Portugal",
+  "year": "2026",
+  "updated": "2026-11-24",
+  "legal_updated": "24 November 2026",
+  "gumroad_script": "https://gumroad.com/js/gumroad.js",
+  "free_sample_url": "",
+  "who_for": "Construction Contractors, site managers and QHSE leads",
+  "band": "Instant download · Fully editable · VAT added at checkout for your country",
+  "footer_blurb": "Editable QHSE documents for construction, written by a team of QHSE managers with more than 20 years' experience.",
+  "home_lead": "Editable management system packs, HSE plans, inductions, RAMS, toolbox talks, inspection checklists and ISO transition packs for construction sites, written by a team of QHSE managers with more than 20 years' experience.",
+  "home_desc": "Editable construction QHSE packs: ISO 9001, ISO 45001 and ISO 14001 systems, HSE plans, permit to work, RAMS, inductions, toolbox talks and inspection checklists. Instant download.",
+  "home_image": "/assets/media/iso-45001-safety-management-pack/01.jpg",
+  "home_image_alt": "ISO 45001 Ready-to-Use Safety Management Pack: cover, dashboard and site photos",
+  "licence_summary": "Single-organisation licence: use and adapt the files inside your organisation, on all its sites and projects. Do not resell or share the editable files.",
+  "refund_line": "Faulty or missing files are refunded within 30 days of purchase, and a reported problem is fixed within 5 working days."
+ },
+ "topics": [
+  {
+   "key": "quality",
+   "kind": "topic",
+   "name": "Quality",
+   "short": "Quality",
+   "path": "quality",
+   "colour": "#1565C0",
+   "tile": "ISO 9001 QMS, ISO 9001:2026 transition, quality induction",
+   "blurb": "Quality management for construction: a ready-to-use ISO 9001 system, the ISO 9001:2026 transition and a quality site induction."
+  },
+  {
+   "key": "safety",
+   "kind": "topic",
+   "name": "Safety",
+   "short": "Safety",
+   "path": "safety",
+   "colour": "#C62828",
+   "tile": "ISO 45001 OHS, HSE plan, permit to work, RAMS, emergency, checklists",
+   "blurb": "Health and safety systems and site tools: ISO 45001 management system, HSE plan, permit to work, risk assessment, emergency planning and equipment inspection."
+  },
+  {
+   "key": "environment",
+   "kind": "topic",
+   "name": "Environment",
+   "short": "Environment",
+   "path": "environment",
+   "colour": "#2E7D32",
+   "tile": "ISO 14001 transition, waste, chemicals and COSHH, emergency",
+   "blurb": "Environmental control on site: ISO 14001:2026 transition, waste management, chemical and COSHH management, environmental emergencies and induction."
+  },
+  {
+   "key": "hr-inductions",
+   "kind": "topic",
+   "name": "HR & Inductions",
+   "short": "Inductions",
+   "path": "hr-inductions",
+   "colour": "#6A3FA0",
+   "tile": "HR, visitor, safety, quality and environmental inductions",
+   "blurb": "Complete, editable induction packs for everyone who comes on site: employees, visitors and every new starter."
+  },
+  {
+   "key": "toolbox-talks",
+   "kind": "topic",
+   "name": "Toolbox Talks & Training",
+   "short": "Toolbox Talks",
+   "path": "toolbox-talks",
+   "colour": "#B85C00",
+   "tile": "Toolbox talk packs 01-04, 60-talk premium bundle, video courses",
+   "blurb": "Ready-to-deliver toolbox talks with worker sheets, speaker sheets and records, plus video courses on Udemy."
+  },
+  {
+   "key": "bundles",
+   "kind": "collection",
+   "name": "Bundles",
+   "short": "Bundle",
+   "path": "bundles",
+   "colour": "#14254A",
+   "tile": "",
+   "blurb": "Several packs in one download, for less than buying them one by one."
+  },
+  {
+   "key": "management-systems",
+   "kind": "collection",
+   "name": "Management System Packs",
+   "short": "Management system",
+   "path": "management-systems",
+   "colour": "#22386A",
+   "tile": "",
+   "blurb": "ISO 9001, ISO 45001 and ISO 14001: ready-to-use management systems and 2026 transition packs for construction."
+  }
+ ],
+ "courses": [
+  {
+   "title": "Toolbox Talk Training: Lead Effective Site Safety Briefings",
+   "url": "https://www.udemy.com/course/toolbox-talk-training-lead-effective-site-safety-briefings/",
+   "status": "live"
+  },
+  {
+   "title": "Construction Site Safety Induction: Work Safely From Day One",
+   "url": "https://www.udemy.com/course/construction-site-safety-induction-work-safely-from-day-one/",
+   "status": "live"
+  },
+  {
+   "title": "Deliver Construction Environmental Inductions: Trainer Pack",
+   "url": "https://www.udemy.com/course/deliver-construction-environmental-inductions-trainer-pack/",
+   "status": "live"
+  },
+  {
+   "title": "Construction Site Trainer & Speaker Essentials",
+   "url": "https://www.udemy.com/course/construction-site-trainer-speaker-essentials/",
+   "status": "live"
+  }
+ ],
+ "pages": [
+  {
+   "path": "/about/",
+   "title": "About Field Ready QHSE",
+   "current": "about",
+   "desc": "Who makes Field Ready QHSE packs.",
+   "html": "<p>Field Ready QHSE makes editable quality, health, safety and environmental documents for construction. Every pack is written by a team of QHSE managers with more than 20 years' experience on construction and infrastructure projects: practical, editable and built to be used on site, not filed away.</p><h2>What you get</h2><ul><li>Editable Word, Excel and PowerPoint files, with PDFs where shown on each pack.</li><li>A clear contents list on every product page, so you know what's inside before you buy.</li><li>The same complete download whichever shop you buy from. Field Ready QHSE packs are also sold in our Etsy shop.</li></ul><h2>Who we are</h2><p>{SELLER}, {LOCATION}.</p><p>Questions about a pack, a company licence or a custom version for your project? Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a>.</p>"
+  },
+  {
+   "path": "/help/",
+   "title": "Help",
+   "current": "help",
+   "desc": "Licence, refunds, FAQ and contact.",
+   "html": "<p>Everything about buying, downloading and using Field Ready QHSE packs.</p>"
+  },
+  {
+   "path": "/help/licence/",
+   "title": "Licence",
+   "current": "help",
+   "html": "<p>When you buy a Field Ready QHSE pack, you get a licence to use the files. You don't buy the copyright, which stays with Field Ready QHSE.</p><h2>Single-organisation licence</h2><ul><li>Use, edit and brand the files inside your own organisation, on all its sites and projects.</li><li>Print and share the completed documents with your workers, subcontractors, clients and auditors as part of running your work.</li><li>Keep using the files for as long as you like.</li></ul><h2>What you can't do</h2><ul><li>Resell, share, give away or publish the editable files, or edited versions of them, as templates or products.</li><li>Upload them to template sites, marketplaces or shared libraries outside your organisation.</li></ul><h2>Consultants and multi-company use</h2><p>To use a pack with several client companies, email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> for a multi-company licence.</p><h2>No warranty</h2><p>The packs are editable templates. A competent person must check every document against your site, your people and the law where you work before it is used. Field Ready QHSE is not affiliated with ISO or any regulator; standards are referred to by clause number only, and you need your own copy of any standard.</p><p class=\"note\">Last updated: {UPDATED}.</p>"
+  },
+  {
+   "path": "/help/refunds/",
+   "title": "Refund policy",
+   "current": "help",
+   "html": "<p>Our packs are digital downloads that you can open and use as soon as payment goes through.</p><h2>When we refund</h2><ul><li>A file is missing, damaged or won't open: email us within 30 days of purchase and you get a refund.</li><li>You were charged twice for the same pack.</li><li>The pack is clearly different from its description.</li></ul><h2>Problems we fix</h2><p>If you report a problem with a file, we fix it and send you the corrected file within 5 working days.</p><h2>How to ask</h2><p>Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> within 30 days of purchase with your Gumroad receipt or order number. Approved refunds are paid by Gumroad to your original payment method.</p><h2>Your right to cancel</h2><p>When you buy, you ask for the download to start straight away. Under EU consumer rules for digital content, the 14-day right to cancel ends once the download has started. This does not affect the refunds above.</p><p class=\"note\">Last updated: {UPDATED}.</p>"
+  },
+  {
+   "path": "/help/faq/",
+   "title": "Frequently asked questions",
+   "current": "help",
+   "html": "<h2>Which software do I need?</h2><p>Microsoft Office or a compatible app that opens DOCX, XLSX and PPTX files. PDFs are included where shown on the product page. Each product page lists the formats inside.</p><h2>How do I get my files?</h2><p>Straight after payment Gumroad shows your download link and emails it to you with your receipt.</p><h2>Who handles payment and VAT?</h2><p>Gumroad is our reseller and merchant of record. It takes the payment, adds the VAT or sales tax for your country at checkout and issues your receipt. Prices on this site exclude VAT.</p><h2>Can I add my own logo?</h2><p>Yes. The files are editable, so you can add your logo, site details and procedures.</p><h2>Can I use a pack on all my sites?</h2><p>Yes, inside your own organisation. See the <a href=\"/help/licence/\">licence</a>.</p><h2>What is the difference between Standard and Premium?</h2><p>Where a pack comes in two editions, the product page shows what each one includes. Pick the edition with the selector above the buy button.</p><h2>What if a file is missing or won't open?</h2><p>Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a>. See the <a href=\"/help/refunds/\">refund policy</a>.</p>"
+  },
+  {
+   "path": "/help/contact/",
+   "title": "Contact",
+   "current": "help",
+   "html": "<p>Questions about a pack, a company licence or a custom version for your project? Email us and we'll reply.</p><div class=\"contact-box\" style=\"margin-top:20px\"><span class=\"email\">{EMAIL}</span><div><a class=\"btn btn-primary btn-sm\" href=\"mailto:{EMAIL}\">Email us</a></div></div><h2>Seller</h2><p>{SELLER}, {LOCATION}</p>"
+  },
+  {
+   "path": "/legal/terms/",
+   "title": "Terms of sale",
+   "current": "help",
+   "html": "<h2>Who sells to you</h2><p>Orders are processed by Gumroad, our reseller and merchant of record. Gumroad handles payment, VAT and sales tax, and issues your receipt. The products are created and supported by {SELLER}, {LOCATION}. Contact: <a href=\"mailto:{EMAIL}\">{EMAIL}</a>.</p><h2>Prices</h2><p>Prices are shown in euros and exclude VAT. VAT or sales tax is added at checkout for your country.</p><h2>Delivery</h2><p>The download link is shown straight after payment and emailed to you. Website buyers get the same files as buyers in our other shops.</p><h2>Use of the files</h2><p>Your use of the files is governed by our <a href=\"/help/licence/\">licence</a>.</p><h2>Refunds</h2><p>See our <a href=\"/help/refunds/\">refund policy</a>.</p><h2>Liability</h2><p>The packs are editable templates and do not replace the judgement of a competent person or legal advice. To the extent the law allows, our liability is limited to the price you paid for the pack.</p><p class=\"note\">Last updated: {UPDATED}.</p>"
+  },
+  {
+   "path": "/legal/privacy/",
+   "title": "Privacy policy",
+   "current": "help",
+   "html": "<h2>Who we are</h2><p>{SELLER}, {LOCATION}, is the controller responsible for the personal data described here. Contact: <a href=\"mailto:{EMAIL}\">{EMAIL}</a>.</p><h2>What we collect</h2><ul><li><b>When you buy:</b> Gumroad collects your name, email, billing country and payment details as merchant of record, and shares your email and order details with us so we can support your order.</li><li><b>When you email us:</b> your email address and message.</li></ul><h2>What we don't do</h2><p>This website sets no advertising or tracking cookies, loads its fonts from our own server and does not sell your data. When you open the Gumroad checkout, Gumroad's own privacy and cookie policy applies.</p><h2>How long we keep it</h2><p>Order records are kept as long as tax law requires. Email enquiries are kept for 24 months.</p><h2>Your rights</h2><p>Under the GDPR you can ask to see, correct, delete or export your data, or object to how we use it. Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a>. You can also complain to your data protection authority (in Portugal: CNPD).</p><p class=\"note\">Last updated: {UPDATED}.</p>"
+  },
+  {
+   "path": "/legal/imprint/",
+   "title": "Seller information",
+   "current": "help",
+   "html": "<p>{SELLER}, {LOCATION}</p><p>Email: <a href=\"mailto:{EMAIL}\">{EMAIL}</a></p><p>Payments for orders on this website are processed by Gumroad, our reseller and merchant of record.</p>"
+  }
+ ],
+ "families": [
+  {
+   "slug": "iso-9001-qms-pack",
+   "topic": "quality",
+   "tags": [
+    "management-systems"
+   ],
+   "family": "QMS",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 1,
+   "badge": "Flagship",
+   "title": "ISO 9001:2026 Ready-to-Use QMS Pack for Construction Contractors",
+   "short": "Set up and run a working ISO 9001:2026 quality system, office and sites: manual, 8 procedures, 22 forms, Excel dashboard, ITPs and trainings.",
+   "intro": "Set up and run a simple, working ISO 9001:2026 quality management system for construction contractors, office and sites. It is written for a company where the owner, the foreman and the office do the quality work themselves, so no full-time quality manager is needed.",
+   "includes": [
+    "More than 560 pages and slides of construction quality content (16 editable folders)",
+    "Start Here guide: set-up in 8 steps, which file for which job",
+    "ISO 9001:2026 guide in plain words (11 pages): what is new in 2026, what the auditor asks to see, a 90-day plan, certification",
+    "Quality Manual QM-01: scope, context, policy, roles (one person, several hats), process map, clause cross-reference",
+    "Quality Policy ready to sign and display (QM-02, one page) + policy guide (QM-03)",
+    "8 procedures with formal cover, document control and revision history: Documents & Records, Internal Audit, Nonconforming Work/Complaints/Corrective Action, Management Review, Risks/Opportunities/Objectives/Changes, Purchasing & Subcontractors, Contract Review & Project Delivery, Competence/Training/Communication",
+    "Site Package: Site Quality Plan template (with 1-page short plan) + 12 site forms (ITP, inspection request and hold point release, material receipt, daily site check, pre-pour/pre-cover checklist, snag list, handover certificate, site quality audit, customer property, site instructions and changes, handover document index, document transmittal)",
+    "9 company forms + 3 shared forms; all 22 core forms in Word AND Excel (same layout), plus PDF",
+    "QMS Dashboard (Excel): 60-question Initial Assessment (gap analysis by clause), 8 KPI tiles, needs-attention list, 15 registers, clause map and project folder structure; one-click picture buttons, no macros",
+    "Worked example: a fictional 10-person builder after nine months, filled dashboard + 29 filled plans and records (more than 110 pages)",
+    "Tender kit: Quality Management Statement + 10 model answers for pre-qualification questionnaires",
+    "3 trainings (PowerPoint + PDF): T1 implementer (32 slides), T2 top management (16 slides), T3 whole company (24 slides), plus a How-to-Use deck",
+    "3 editable training certificates",
+    "ITP library: 20 completed inspection and test plans, one per main trade, with hold, witness and surveillance points",
+    "20 trade quality checklists: about 40 checks per trade with acceptance criteria, tolerances, hold points, tests and common defects",
+    "20 quality briefings: 10-minute briefings per trade for the foreman, with check questions and attendance sheet",
+    "5 ZIP files (download all five)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "560+",
+     "pages and slides"
+    ],
+    [
+     "20",
+     "trade ITPs"
+    ],
+    [
+     "22",
+     "forms in Word and Excel"
+    ]
+   ],
+   "note": "Aligned with ISO 9001:2026 (sixth edition). The ISO standard itself is not included: buy it from ISO or your national standards body. Buying documents does not make a company certified; certification comes from using the system and passing an audit by an accredited certification body.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/iso-9001-qms-pack/01.jpg",
+    "/assets/media/iso-9001-qms-pack/02.jpg",
+    "/assets/media/iso-9001-qms-pack/03.jpg",
+    "/assets/media/iso-9001-qms-pack/04.jpg",
+    "/assets/media/iso-9001-qms-pack/05.jpg",
+    "/assets/media/iso-9001-qms-pack/06.jpg"
+   ],
+   "video": "/assets/media/iso-9001-qms-pack/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Single pack",
+     "price_ex_vat": 161.79,
+     "gumroad_url": "",
+     "etsy_id": "4624149832",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "iso-9001-2026-transition-pack",
+   "topic": "quality",
+   "tags": [
+    "management-systems"
+   ],
+   "family": "ISO9T",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 2,
+   "badge": "",
+   "title": "ISO 9001:2026 Transition Pack",
+   "short": "Move your QMS from ISO 9001:2015 to 2026: Excel gap assessment with a live dashboard that builds your action plan, plus a 15-page Transition Guide.",
+   "intro": "Move your certified quality management system from ISO 9001:2015 to ISO 9001:2026 with a clear, five-stage method: an Excel workbook with a live dashboard that builds your action plan for you, and a step-by-step Transition Guide. Premium adds nine registers, a fully worked example, a management briefing and a 90-minute training workshop.",
+   "includes": [
+    "Excel workbook (blank, editable, no macros): page 1 dashboard and index with ten status tiles, key dates, a next-step line and progress charts",
+    "Changes Guide: 39 change items from 2015 to 2026, each with what to do and the evidence to show",
+    "Gap Assessment: 34 questions mapped to the 2026 clauses; Partly or No creates an action line automatically",
+    "Action Plan with owners, due dates, status and overdue flags, plus a printable Action Sheet (one action per A4 page, with sign-off)",
+    "Plan & Timeline and a one-page Summary for top management",
+    "Transition Guide: 15 pages, print-ready PDF plus editable Word",
+    "Start Here guide and licence (PDF)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "39",
+     "change items"
+    ],
+    [
+     "34",
+     "gap questions"
+    ],
+    [
+     "15",
+     "page guide"
+    ]
+   ],
+   "note": "You need your own licensed copy of ISO 9001:2026. Independent product, not affiliated with, endorsed or approved by ISO. Organisations certified to ISO 9001:2015 have until 30 September 2029 to transition; confirm dates with your certification body.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/iso-9001-2026-transition-pack/01.jpg",
+    "/assets/media/iso-9001-2026-transition-pack/02.jpg",
+    "/assets/media/iso-9001-2026-transition-pack/03.jpg"
+   ],
+   "video": "/assets/media/iso-9001-2026-transition-pack/video.mp4",
+   "variants": [
+    {
+     "key": "standard",
+     "name": "Standard",
+     "price_ex_vat": 39.84,
+     "gumroad_url": "",
+     "etsy_id": "4618677766",
+     "status": "live",
+     "includes": [
+      "Everything listed under What's inside",
+      "How to use the workbook: 15-slide PowerPoint walk-through"
+     ],
+     "includes_heading": "Standard"
+    },
+    {
+     "key": "premium",
+     "name": "Premium",
+     "price_ex_vat": 80.49,
+     "gumroad_url": "",
+     "etsy_id": "4618672137",
+     "status": "live",
+     "includes": [
+      "Dashboard with ten status tiles covering readiness, gaps, actions, risks, opportunities, changes, evidence and findings",
+      "Nine registers: context and interested parties, quality culture and ethics, risks, opportunities, planned changes (6.3), document review, evidence matrix, awareness record, NC log",
+      "Two printable forms: Action Sheet and Change Form, filled in for you, with sign-off",
+      "The same workbook fully completed for a fictional engineering company",
+      "Top Management Briefing: 8 editable slides with speaker notes",
+      "Transition Training: 27 editable slides with speaker notes and six exercises",
+      "How to use the workbook: 17-slide walk-through",
+      "Facilitator & Participant Pack (Word + PDF): 90-minute workshop with facilitator plan, six exercises, handouts and answer key"
+     ],
+     "includes_heading": "Premium adds"
+    }
+   ]
+  },
+  {
+   "slug": "quality-site-induction",
+   "topic": "quality",
+   "tags": [
+    "hr-inductions"
+   ],
+   "family": "QI",
+   "edition": "ED01-R01",
+   "language": "EN",
+   "status": "live",
+   "order": 3,
+   "badge": "",
+   "title": "Construction Site Quality Induction – Full Pack",
+   "short": "100 editable slides, train-the-trainer handbook, learner companion and a 20-question knowledge check. ISO 9001 in plain site language.",
+   "intro": "Deliver a professional construction site quality induction without starting from a blank page. It covers what every worker, supervisor and subcontractor needs to build it right first time: current drawings, acceptance criteria, inspection and test plans, hold points, materials, nonconformities and honest records.",
+   "includes": [
+    "100-slide PowerPoint presentation (.pptx) and PDF, 16:9",
+    "Trainer notes on all 100 slides, with discussion questions and expected answers for the decision and spot-the-problem slides",
+    "10 modules: welcome, quality system and culture, requirements and information, planning quality in, materials and supply chain, workmanship and trades, inspection testing and release, nonconformity and improvement, records and handover, site application",
+    "Train-the-Trainer Handbook (Word + PDF)",
+    "Learner Companion take-away summary (Word + PDF)",
+    "20-question scenario Knowledge Check and Answer Key with critical questions and re-brief guidance (Word + PDF)",
+    "How to Use and Customise guide with a customisation checklist and pre-training sign-off (Word + PDF)",
+    "Attendance Register (Excel)",
+    "Editable Attendance Certificate (PowerPoint + PDF)",
+    "Read Me First and Licence (PDF)"
+   ],
+   "formats": [
+    "PPTX",
+    "PDF",
+    "DOCX",
+    "XLSX"
+   ],
+   "stats": [
+    [
+     "100",
+     "editable slides"
+    ],
+    [
+     "10",
+     "modules"
+    ],
+    [
+     "20",
+     "quiz questions"
+    ]
+   ],
+   "note": "Explains ISO 9001 in plain site language; it does not reproduce the standard and is not affiliated with ISO. General training material, not legal or contractual advice. Attending does not authorise any task, inspection signature or hold-point release.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/quality-site-induction/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Full pack",
+     "price_ex_vat": 29.99,
+     "gumroad_url": "",
+     "etsy_id": "4609249355",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "iso-45001-safety-management-pack",
+   "topic": "safety",
+   "tags": [
+    "management-systems"
+   ],
+   "family": "OHS",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 1,
+   "badge": "Flagship",
+   "title": "ISO 45001 Ready-to-Use Safety Management Pack for Construction Contractors",
+   "short": "A complete ISO 45001 safety management system for construction contractors: manual, 9 procedures, 30 task RAMS, 23 forms, Excel dashboard, trainings.",
+   "intro": "A complete, ready-to-use ISO 45001 occupational health and safety management system for construction contractors, office and sites. Plain words, practical forms, one 5x5 risk matrix throughout, and a live Excel dashboard.",
+   "includes": [
+    "More than 820 pages and slides of construction safety content (16 folders)",
+    "00 Start Here guide: set up in 8 steps, 90-day plan",
+    "01 ISO 45001 guide in plain words: what the auditor asks, what the draft next edition proposes",
+    "02 OH&S Manual HM-01: scope, context, policy, roles matrix, objectives, ISO 45001 cross-reference",
+    "OH&S Policy ready to sign and post (HM-02, one page) + policy guide (HM-03)",
+    "03 Nine procedures HP-01 to HP-09: documents, risk assessment, legal register, worker consultation, competence, operational control and contractors, emergencies, incidents and return to work, monitoring/audit/management review",
+    "04 Site Package: Site Safety Plan template + short RAMS, pre-start briefing, induction, plant pre-use check, high-risk work permit, near-miss card, hazardous substance assessment, site safety audit",
+    "05 Company forms and shared forms (meetings and consultation, subcontractor pre-qualification, internal audit, management review, PPE issue, return to work, incidents, inspections, drills, emergency contacts, actions, change, attendance)",
+    "06 All 23 forms in Excel, print-ready, with a picture-button index",
+    "07 OH&S Dashboard (Excel): 60-question Initial Assessment, 8 KPI tiles (days since last LTI, LTIFR/TRIFR, observations, overdue actions, inspection score, training, open high risks), 16 registers, management review inputs, clause map; no macros",
+    "08 Worked example: a fictional 10-person builder after nine months (filled dashboard, Site Safety Plan, RAMS, near-miss card, hot-work permit, incident investigation, site audit, management review)",
+    "09 Tender kit: Health & Safety Statement + 10 model answers for pre-qualification",
+    "10 Trainings (PowerPoint + PDF, speaker notes and quizzes): T1 OH&S coordinator, T2 owner and managers, T3 whole company, plus a How-to-use deck",
+    "11 Editable training certificates · 12 Licence",
+    "13 Task RAMS Library: 30 completed task RAMS for the commonest construction activities, with scored hazards, step-by-step method, stop-work triggers and emergency arrangements",
+    "14 Toolbox Talks: 30 talks matching the RAMS, with check questions and attendance sheet",
+    "15 Activity Safety Inspections: 30 inspection checklists built from the critical controls of each task RAMS",
+    "5 ZIP files"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "820+",
+     "pages and slides"
+    ],
+    [
+     "30",
+     "task RAMS"
+    ],
+    [
+     "23",
+     "forms in Word and Excel"
+    ]
+   ],
+   "note": "Based on ISO 45001:2018 + Amendment 1:2024. ISO 45001 itself is not included: buy it from ISO or your national standards body. Guidance templates: adapt them to your company, contracts and national law; buying the pack does not certify your company. The 30 task RAMS are short versions.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/iso-45001-safety-management-pack/01.jpg",
+    "/assets/media/iso-45001-safety-management-pack/02.jpg",
+    "/assets/media/iso-45001-safety-management-pack/03.jpg",
+    "/assets/media/iso-45001-safety-management-pack/04.jpg",
+    "/assets/media/iso-45001-safety-management-pack/05.jpg",
+    "/assets/media/iso-45001-safety-management-pack/06.jpg"
+   ],
+   "video": "/assets/media/iso-45001-safety-management-pack/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Single pack",
+     "price_ex_vat": 161.79,
+     "gumroad_url": "",
+     "etsy_id": "4624427970",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "hse-plan",
+   "topic": "safety",
+   "tags": [],
+   "family": "HSEP",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 2,
+   "badge": "",
+   "title": "Project HSE Plan Pack",
+   "short": "Editable 113-page Project HSE Plan with signed HSE forms and HSE Manager training. Premium adds a live Excel HSE dashboard and three more trainings.",
+   "intro": "A complete, editable Project HSE Plan for construction and civil engineering projects, with the signed forms that go with it and a practical training for the HSE Manager who will run it. Premium adds a live Excel HSE dashboard with linked registers and alerts, a completed example workbook and three more trainings for your whole team.",
+   "includes": [
+    "Start Here guide (PDF): the first week, step by step",
+    "Project HSE Plan HSE-PLN-01 (Word + PDF), 113 pages: 53 sections in 4 parts (HSE management system, site arrangements and controls, environmental management, emergencies, performance and review)",
+    "11 one-page annexes: HSE policy, starter legal register, objectives and KPI targets, meetings schedule, statutory inspections, training and competence matrix, emergency contacts, site golden rules, plan review checklist, settings to approve, plan briefing agenda and record",
+    "56 safety signs in five families, 24 PPE types from head to toe, 12 collective protection examples in the hierarchy of controls",
+    "Section 47: stand-alone emergency section (levels, organisation, alarm, muster, equipment, drills) that links to your own Emergency Response Plan",
+    "HSE Plan Forms HSE-FRM-01 (Word + PDF): ATT-01 attendance, INS-01 weekly HSE inspection, INC-01 incident report and investigation, REV-01 plan review checklist, RPT-01 monthly report sign-off",
+    "HSE Manager training T1 (PowerPoint), 31 slides with speaker notes and a knowledge check",
+    "Editable Start Here guide (Word) and single-organisation licence"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "113",
+     "page HSE plan"
+    ],
+    [
+     "5",
+     "signed HSE forms"
+    ],
+    [
+     "132",
+     "training slides (Premium)"
+    ]
+   ],
+   "note": "Guidance and templates, not legal advice: adapt to your law, contract and site, and have a competent person check them. The worked example uses a fictional project.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/hse-plan/01.jpg",
+    "/assets/media/hse-plan/02.jpg",
+    "/assets/media/hse-plan/03.jpg",
+    "/assets/media/hse-plan/04.jpg"
+   ],
+   "video": "/assets/media/hse-plan/video.mp4",
+   "variants": [
+    {
+     "key": "standard",
+     "name": "Standard",
+     "price_ex_vat": 39.84,
+     "gumroad_url": "",
+     "etsy_id": "4618832885",
+     "status": "live",
+     "includes": [
+      "Everything listed under What's inside",
+      "HSE Manager training T1: 31 slides",
+      "No Excel workbook (the dashboard and registers are in Premium)"
+     ],
+     "includes_heading": "Standard"
+    },
+    {
+     "key": "premium",
+     "name": "Premium",
+     "price_ex_vat": 80.49,
+     "gumroad_url": "",
+     "etsy_id": "4618844066",
+     "status": "live",
+     "includes": [
+      "Excel HSE Plan Dashboard & Registers (blank) plus the same workbook filled in for a fictional project: 15 linked sheets, dashboard on page 1, no macros",
+      "Alerts for overdue actions, expired or missing training, HSE role gaps, unapproved plan sections, overdue plan reviews and legal register checks",
+      "Legal register, training matrix by worker category, plan sections, appointments, observations, inspections, incidents, actions, environmental monitoring, waste and monthly KPIs (LTIFR, TRIR and more)",
+      "Three more trainings: T0 Management (21 slides), T2 HSE officers and supervisors (28), T3 Workers (52): 132 slides in total with T1",
+      "Premium Start Here guide: set-up, running the dashboard and delivering the trainings"
+     ],
+     "includes_heading": "Premium adds"
+    }
+   ]
+  },
+  {
+   "slug": "permit-to-work-system",
+   "topic": "safety",
+   "tags": [],
+   "family": "PTW",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 3,
+   "badge": "",
+   "title": "Construction Permit-to-Work System Pack",
+   "short": "Complete permit-to-work system: 7 permits on one 10-section layout, isolation certificate, gas test record and an Excel register with a live board.",
+   "intro": "Run high-risk work on your construction site with a complete permit-to-work system: seven ready-to-use permits, an isolation certificate, a gas test record and an Excel permit register with a live board that checks the rules for you.",
+   "includes": [
+    "Start Here guide (Word + PDF, 4 pages): set-up in six steps, colours and conventions, example settings to approve",
+    "PTW System Procedure PTW-PRO-01 (Word + PDF, 8 pages): formal company procedure with document control, approval page, revision history; roles, competence, six-step lifecycle, validity and revalidation, suspension and emergencies, SIMOPS, isolation (LOTO), gas testing, records and audit, annexes",
+    "7 permits on one 10-section layout (Word + PDF, 2 pages each): PTW-01 General work, PTW-02 Hot work, PTW-03 Confined space entry, PTW-04 Excavation and ground disturbance, PTW-05 Work at height, PTW-06 Isolation (LOTO), PTW-07 Lifting operations",
+    "IC-01 Isolation Certificate (LOTO): energy sources, isolation points, prove-test-prove, lock transfer at shift change, removal of an absent person's lock",
+    "GT-01 Gas Test Record: instrument, site limits, 16 readings, alarms and actions",
+    "Excel Permit Register & Live Board (blank + worked example): dashboard and index, live board, permit register, isolation register, authorisations, 3 printable records (Permit Card, Shift Handover Record, Permit Audit Checklist)",
+    "Excel checks: permit status against a board clock, 10 rule checks on every line, SIMOPS warning for overlapping permits in one zone, isolation register warns when locks are still on after close-out, authorisation expiry dates; no macros",
+    "How to Use the Pack: PowerPoint, 16 slides with speaker notes",
+    "FREE completed example: hot work permit HW-0101 filled in for a fictional contractor, matching the Excel example",
+    "Licence",
+    "29 files, 5 downloads"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "7",
+     "permit types"
+    ],
+    [
+     "10",
+     "permit sections"
+    ],
+    [
+     "16",
+     "training slides"
+    ]
+   ],
+   "note": "Guidance templates: your competent persons must check every permit against your site and the law where you work. Not legal advice. Change the yellow example settings (distances, fire watch time, gas and wind limits) to your national rules and client requirements.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/permit-to-work-system/01.jpg",
+    "/assets/media/permit-to-work-system/02.jpg",
+    "/assets/media/permit-to-work-system/03.jpg",
+    "/assets/media/permit-to-work-system/04.jpg",
+    "/assets/media/permit-to-work-system/05.jpg"
+   ],
+   "video": "/assets/media/permit-to-work-system/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Single pack",
+     "price_ex_vat": 34.99,
+     "gumroad_url": "",
+     "etsy_id": "4618648578",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "risk-assessment-rams",
+   "topic": "safety",
+   "tags": [],
+   "family": "RAMS",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 4,
+   "badge": "",
+   "title": "Risk Assessment Template for Construction",
+   "short": "Editable Excel risk assessment with a 5x5 risk matrix, initial and residual risk and action tracker, plus a RAMS Word template and risk procedure.",
+   "intro": "A construction risk assessment pack for contractors, HSE professionals, engineers and site managers who need a practical, structured way to identify hazards, evaluate risks and document controls.",
+   "includes": [
+    "Smart Risk Assessment Excel workbook (8 sheets): Instructions, Settings, Lists, 5x5 Risk Matrix, Risk Assessment, Action Tracker, Revision History, Risk Workshop Record",
+    "Initial (pre-control) and residual (post-control) risk ratings with automatic risk-level colour formatting and control-measure tracking",
+    "Worked risk assessment example",
+    "Construction RAMS Template (Word): risk assessment and method statement, fully editable",
+    "Risk Assessment Procedure (Word): process, 5x5 criteria, hierarchy of controls, risk workshops, review and records, with a workshop agenda and record",
+    "Risk Toolkit Quick Start Guide (PDF)"
+   ],
+   "formats": [
+    "XLSX",
+    "DOCX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "5x5",
+     "risk matrix"
+    ],
+    [
+     "8",
+     "Excel sheets"
+    ],
+    [
+     "4",
+     "files"
+    ]
+   ],
+   "note": "General risk-management guidance: review and adapt it to your organisation, activity, project, legislation and local requirements. It does not guarantee regulatory compliance or replace competent professional judgement.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/risk-assessment-rams/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Single pack",
+     "price_ex_vat": 29.99,
+     "gumroad_url": "",
+     "etsy_id": "4568955949",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "health-safety-emergency-pack",
+   "topic": "safety",
+   "tags": [],
+   "family": "EMS",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 5,
+   "badge": "",
+   "title": "Health & Safety Emergency Pack",
+   "short": "Editable emergency preparedness toolkit for construction sites: 78-page procedure, 13 action cards, 15 drills, Excel dashboard, 110 training slides.",
+   "intro": "A comprehensive, editable emergency preparedness and response toolkit for construction sites and their site offices: the procedure, the action cards, 15 ready-made drills, the forms and editable posters, an Excel dashboard that shows how ready you are, and a training for every audience. Adapt it to your site, have it approved by your competent people, then train and drill.",
+   "includes": [
+    "Start Here guide (PDF): set-up, running the dashboard, planning drills, delivering the trainings",
+    "Emergency Preparedness and Response Procedure EMS-PRO-01 (Word + PDF, 78 pages): 32 sections in 5 parts, formal company cover, document control, approval and revision history",
+    "13 one-page action cards: fire on site, fire in the office, serious injury, cardiac arrest, trench collapse, rescue from height, confined space, gas leak and utility strike, electric shock, plant collision, fall into water, severe weather, security threat and missing person",
+    "15 drill scenario cards with objectives, set-up, timed script, injects, observer points, targets and drill safety",
+    "Annexes: contacts and notification sheet, crisis team task cards, PEEP guidance, inject library, training matrix, settings to approve",
+    "Excel Emergency Preparedness Dashboard & Registers (16 sheets, no macros): 8 tiles, drills planned vs done, 13 needs-attention lines, picture-button index; + the same workbook filled in as a worked example",
+    "Forms EMS-FRM-01 (Word + PDF): DPL-01 drill plan, DOB-01 observer checklist, DR-01 drill report, RCS-01 roll call sheet, ECS-01 contacts and notification sheet, EEC-01 equipment check, PEP-01 personal emergency evacuation plan, CLG-01 incident and crisis log, INC-01 incident report, ATT-01 attendance and understanding check",
+    "3 A4 posters (editable PowerPoint + print PDF): In an emergency · Who calls whom · Calling the emergency services",
+    "6 trainings, 110 slides with speaker notes (PowerPoint): T0 managers and crisis team (17), T1 HSE officers (19), T2 every site worker (19), T3 site office (18), T4 emergency team (18), How to use the workbook (19)",
+    "Editable Start Here guide and single-organisation licence",
+    "5 downloads"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "13",
+     "action cards"
+    ],
+    [
+     "15",
+     "drill cards"
+    ],
+    [
+     "110",
+     "training slides"
+    ]
+   ],
+   "note": "Written around ISO 45001 clause 8.2, for reference; check your national law. Environmental emergencies are not included (see the Environmental Emergency Pack). First aid, rescue and firefighting certificates need hands-on training by a competent provider. No emergency number is assumed: you enter the numbers for your country.",
+   "upgrade_note": "",
+   "bundles": [
+    "emergency-packs-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/health-safety-emergency-pack/01.jpg",
+    "/assets/media/health-safety-emergency-pack/02.jpg",
+    "/assets/media/health-safety-emergency-pack/03.jpg",
+    "/assets/media/health-safety-emergency-pack/04.jpg",
+    "/assets/media/health-safety-emergency-pack/05.jpg",
+    "/assets/media/health-safety-emergency-pack/06.jpg"
+   ],
+   "video": "/assets/media/health-safety-emergency-pack/video.mp4",
+   "variants": [
+    {
+     "key": "premium",
+     "name": "Premium pack",
+     "price_ex_vat": 32.44,
+     "gumroad_url": "",
+     "etsy_id": "4620360388",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "plant-inspection-checklists",
+   "topic": "safety",
+   "tags": [],
+   "family": "EQ1",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 7,
+   "badge": "",
+   "title": "Plant, Lifting & Vehicle Inspection Checklists (Pack 1)",
+   "short": "25 one-page checklists for cranes, lifting gear, access platforms, earthmoving plant, concrete plant and vehicles, with Excel log and tags.",
+   "intro": "Inspect cranes, lifting gear, access platforms, earthmoving plant, concrete plant and vehicles with one clear system.",
+   "includes": [
+    "25 one-page inspection checklists, one per machine, with how-to guide, contents and defect log (Word + PDF)",
+    "Equipment log (Excel): equipment register, inspection dates, next-due status, dashboard and defect log",
+    "Inspection tags: Inspected, Restricted use and Do not use, 8 per A4 (Word + PDF)",
+    "12 A6 operator pre-use cards, 4 per A4 (Word + PDF)",
+    "Hired plant acceptance form: arrival checks and off-hire record (Word + PDF)",
+    "Quarterly inspection colour-code poster and record (Word + PDF)",
+    "Blank checklist template with instructions to add your own equipment (Word + PDF)",
+    "Read me first and licence (PDF)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "25",
+     "checklists"
+    ],
+    [
+     "12",
+     "pre-use cards"
+    ],
+    [
+     "8",
+     "tags per A4"
+    ]
+   ],
+   "note": "These checklists help you organise inspections. They do not replace the manufacturer's instructions, your national law, your risk assessments or inspections by a competent person.",
+   "upgrade_note": "",
+   "bundles": [
+    "equipment-checklists-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/plant-inspection-checklists/01.jpg"
+   ],
+   "video": "/assets/media/plant-inspection-checklists/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 1",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4609795029",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "tool-inspection-checklists",
+   "topic": "safety",
+   "tags": [],
+   "family": "EQ2",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 8,
+   "badge": "",
+   "title": "Tools, Power & Workshop Inspection Checklists (Pack 2)",
+   "short": "21 one-page checklists for generators, electrics, hot work, workshop machines, power tools, ladders and extinguishers, with Excel log and tags.",
+   "intro": "Inspect generators, electrics, hot work, workshop machines, power tools, ladders and extinguishers with one clear system.",
+   "includes": [
+    "21 one-page inspection checklists, one per item, with how-to guide, contents and defect log (Word + PDF)",
+    "Equipment log (Excel): equipment register, inspection dates, next-due status, dashboard and defect log",
+    "Inspection tags: Inspected, Restricted use and Do not use, 8 per A4 (Word + PDF)",
+    "8 A6 operator pre-use cards, 4 per A4 (Word + PDF)",
+    "Quarterly inspection colour-code poster and record (Word + PDF)",
+    "Blank checklist template with instructions to add your own equipment (Word + PDF)",
+    "Read me first and licence (PDF)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "21",
+     "checklists"
+    ],
+    [
+     "8",
+     "pre-use cards"
+    ],
+    [
+     "8",
+     "tags per A4"
+    ]
+   ],
+   "note": "These checklists help you organise inspections. They do not replace the manufacturer's instructions, your national law, your risk assessments or inspections by a competent person.",
+   "upgrade_note": "",
+   "bundles": [
+    "equipment-checklists-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/tool-inspection-checklists/01.jpg"
+   ],
+   "video": "/assets/media/tool-inspection-checklists/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 2",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4609818384",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "equipment-checklists-bundle",
+   "topic": "safety",
+   "tags": [
+    "bundles"
+   ],
+   "family": "EQB",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 6,
+   "badge": "Best value",
+   "title": "Equipment Inspection Checklist Bundle (Packs 1–2)",
+   "short": "Both packs in one download: 46 checklists for plant, lifting and vehicles plus tools, power and workshop equipment.",
+   "intro": "Pack 1 and Pack 2 together: everything you need to inspect plant, cranes, vehicles, tools and workshop equipment on site.",
+   "includes": [
+    "Pack 1: 25 plant, lifting and vehicle checklists, Excel log, tags, 12 pre-use cards, hired plant acceptance form, colour code, blank template",
+    "Pack 2: 21 tools, power and workshop checklists, Excel log, tags, 8 pre-use cards, colour code, blank template",
+    "2 Excel equipment and inspection logs",
+    "Inspection tags, 8 per A4",
+    "20 operator pre-use cards in total",
+    "Read me first and licence (PDF)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "46",
+     "checklists"
+    ],
+    [
+     "20",
+     "pre-use cards"
+    ],
+    [
+     "2",
+     "Excel logs"
+    ]
+   ],
+   "note": "These checklists help you organise inspections. They do not replace the manufacturer's instructions, your national law, your risk assessments or inspections by a competent person.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [
+    "plant-inspection-checklists",
+    "tool-inspection-checklists"
+   ],
+   "images": [
+    "/assets/media/equipment-checklists-bundle/01.jpg"
+   ],
+   "video": "/assets/media/equipment-checklists-bundle/video.mp4",
+   "variants": [
+    {
+     "key": "bundle",
+     "name": "Bundle",
+     "price_ex_vat": 6.99,
+     "gumroad_url": "",
+     "etsy_id": "4609798709",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "safety-site-induction",
+   "topic": "safety",
+   "tags": [
+    "hr-inductions"
+   ],
+   "family": "SI",
+   "edition": "ED02-R01",
+   "language": "EN",
+   "status": "live",
+   "order": 9,
+   "badge": "",
+   "title": "Construction Site Safety Induction – Full Pack",
+   "short": "100-slide editable site induction with trainer notes, trainer handbook, 20-question knowledge check, register and certificate. Add your logo.",
+   "intro": "Deliver a professional construction site safety induction without starting from a blank page. A complete, editable pack: a 100-slide PowerPoint with trainer notes on every slide, plus the documents you need to prepare, deliver and record it.",
+   "includes": [
+    "100-slide PowerPoint presentation (.pptx) and PDF, 16:9",
+    "Trainer notes on all 100 slides, with discussion questions and expected answers for the decision and spot-the-hazard slides",
+    "10 modules: welcome, responsibilities, hazards and controls, site rules, critical hazards, health and environment, emergency response, incidents and learning, toolbox talks, site application",
+    "Trainer Handbook (Word + PDF)",
+    "Learner Companion take-away summary (Word + PDF)",
+    "20-question scenario Knowledge Check and Answer Key with re-brief guidance (Word + PDF)",
+    "How to Use and Customise guide with a mandatory site completion checklist (Word + PDF)",
+    "Attendance Register (Excel) with an automatic result column",
+    "Editable Attendance Certificate (PowerPoint + PDF)",
+    "Read Me First and Licence (PDF)"
+   ],
+   "formats": [
+    "PPTX",
+    "PDF",
+    "DOCX",
+    "XLSX"
+   ],
+   "stats": [
+    [
+     "100",
+     "editable slides"
+    ],
+    [
+     "10",
+     "modules"
+    ],
+    [
+     "20",
+     "quiz questions"
+    ]
+   ],
+   "note": "General training material, not legal advice. It does not replace your site risk assessments, method statements, permits or emergency plan. Adapt it to your site and check the legal requirements of your country before delivery.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/safety-site-induction/01.jpg"
+   ],
+   "video": "/assets/media/safety-site-induction/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Full pack",
+     "price_ex_vat": 29.99,
+     "gumroad_url": "",
+     "etsy_id": "4609034976",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "iso-14001-2026-transition-pack",
+   "topic": "environment",
+   "tags": [
+    "management-systems"
+   ],
+   "family": "ISO14T",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 1,
+   "badge": "",
+   "title": "ISO 14001:2026 Transition Pack",
+   "short": "Move your EMS from ISO 14001:2015 to 2026: a 58-question Excel gap assessment that builds your action plan, plus an 11-page Transition Guide.",
+   "intro": "Move your certified environmental management system from ISO 14001:2015 to ISO 14001:2026 with a clear, five-stage method: an Excel gap assessment that builds your action plan for you, and a step-by-step Transition Guide. Premium adds a 16-sheet workbook with registers, a worked example, a management briefing and a 90-minute training workshop.",
+   "includes": [
+    "Excel workbook (blank, editable, no macros): Changes Guide, 58-question Gap Assessment, Action Plan, Plan & Timeline, Dashboard and one-page Summary",
+    "Every gap flows into the Action Plan automatically; timeline worked back from your audit date",
+    "Transition Guide: 11 pages, print-ready PDF plus editable Word",
+    "Start Here guide and licence (PDF)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "58",
+     "gap questions"
+    ],
+    [
+     "11",
+     "page guide"
+    ],
+    [
+     "16",
+     "Excel sheets (Premium)"
+    ]
+   ],
+   "note": "You need your own licensed copy of ISO 14001:2026. Independent product, not affiliated with, endorsed or approved by ISO. Certification bodies indicate the transition period ends in April 2029; confirm your deadline with your certification body.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/iso-14001-2026-transition-pack/01.jpg",
+    "/assets/media/iso-14001-2026-transition-pack/02.jpg",
+    "/assets/media/iso-14001-2026-transition-pack/03.jpg"
+   ],
+   "video": "/assets/media/iso-14001-2026-transition-pack/video.mp4",
+   "variants": [
+    {
+     "key": "standard",
+     "name": "Standard",
+     "price_ex_vat": 14.9,
+     "gumroad_url": "",
+     "etsy_id": "4604846391",
+     "status": "live",
+     "includes": [
+      "Everything listed under What's inside"
+     ],
+     "includes_heading": "Standard"
+    },
+    {
+     "key": "premium",
+     "name": "Premium",
+     "price_ex_vat": 99.0,
+     "gumroad_url": "",
+     "etsy_id": "4604890973",
+     "status": "live",
+     "includes": [
+      "Excel workbook with 16 linked sheets and an enhanced dashboard that also tracks the registers and evidence",
+      "Registers for environmental conditions, interested parties, aspects, risks and opportunities, and external providers",
+      "Change log for clause 6.3, document review, Evidence Matrix by clause and nonconformity log",
+      "The same workbook fully completed for a fictional manufacturer",
+      "Transition Briefing: 16 editable PowerPoint slides with speaker notes",
+      "Transition Training: 90-minute workshop, 27 editable slides with timed speaker notes",
+      "Facilitator & Participant Pack (Word + PDF): agenda, module notes, model answers, 5 worksheets, 10-question knowledge check with answer key, evaluation form and attendance record"
+     ],
+     "includes_heading": "Premium adds"
+    }
+   ]
+  },
+  {
+   "slug": "chemical-coshh-management-pack",
+   "topic": "environment",
+   "tags": [
+    "safety"
+   ],
+   "family": "CHEM",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 2,
+   "badge": "",
+   "title": "Chemical & COSHH Management Pack",
+   "short": "Editable 51-page COSHH chemical management procedure, 7 forms, 3 GHS posters and training. Premium adds a live Excel chemical dashboard and 4 more trainings.",
+   "intro": "A complete, editable chemical management (COSHH) procedure for construction, maintenance, workshops and industrial sites, with the forms, posters and a practical training for the person who will run it. Premium adds a live Excel chemical dashboard with a self-checking register, a worked example workbook and four more trainings for your whole team.",
+   "includes": [
+    "Start Here guide (PDF): the first week, step by step",
+    "Chemical Management Procedure CHM-PRO-01 (Word + PDF), 51 pages: 27 sections in 4 parts covering the whole chemical life cycle from purchase approval to disposal",
+    "Risk assessment method: hazard band (1–4) from the pictograms × exposure level from amount, duration and release",
+    "12 annexes: prohibited substances starter list, chemical register layout, SDS checklist, GHS pictogram reference, storage compatibility chart, bund calculation (110 % / 25 %), glove and RPE guide, spill response card, exposure limits, training and authorisation matrix, store inspection checklist, settings to approve",
+    "Chemical Management Forms CHM-FRM-01 (Word + PDF): NPA-01 new product approval, CRA-01 chemical risk assessment, TC-01 task card, LBL-01 decant labels, SPK-01 spill kit check, LEV-01 LEV record, ATT-01 attendance",
+    "Three A4 posters (PDF): the nine GHS pictograms, storage compatibility, spill response in six steps",
+    "Chemical Coordinator training T1 (PowerPoint), 23 slides with speaker notes and a knowledge check",
+    "Editable Start Here guide (Word) and single-organisation licence"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "51",
+     "page procedure"
+    ],
+    [
+     "7",
+     "editable forms"
+    ],
+    [
+     "88",
+     "training slides (Premium)"
+    ]
+   ],
+   "note": "General international scope based on GHS / CLP and the COSHH approach. Guidance and templates, not legal advice: adapt to your law and site and have a competent person check exposure limits and health surveillance duties.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/chemical-coshh-management-pack/01.jpg",
+    "/assets/media/chemical-coshh-management-pack/02.jpg",
+    "/assets/media/chemical-coshh-management-pack/03.jpg",
+    "/assets/media/chemical-coshh-management-pack/04.jpg",
+    "/assets/media/chemical-coshh-management-pack/05.jpg",
+    "/assets/media/chemical-coshh-management-pack/06.jpg"
+   ],
+   "video": "/assets/media/chemical-coshh-management-pack/video.mp4",
+   "variants": [
+    {
+     "key": "standard",
+     "name": "Standard",
+     "price_ex_vat": 23.58,
+     "gumroad_url": "",
+     "etsy_id": "4619238636",
+     "status": "live",
+     "includes": [
+      "Everything listed under What's inside",
+      "Chemical Coordinator training T1: 23 slides",
+      "No Excel workbook (the dashboard and registers are in Premium)"
+     ],
+     "includes_heading": "Standard"
+    },
+    {
+     "key": "premium",
+     "name": "Premium",
+     "price_ex_vat": 47.97,
+     "gumroad_url": "",
+     "etsy_id": "4619233249",
+     "status": "live",
+     "includes": [
+      "Excel Chemical Dashboard & Registers (blank) plus the same workbook filled in for a fictional contractor: 16 linked sheets, no macros",
+      "Dashboard: status date, 8 tiles, products by hazard band and GHS pictogram, 12 'needs attention' lines, picture-button index",
+      "Chemical register with GHS pictograms, product approvals with substitution check, risk assessments, stores and bunds, store inspections, spill kits, LEV, exposure monitoring, health surveillance, training, waste, one action list",
+      "Task card: choose an assessment and print a one-page A4 card with pictograms, controls, PPE, first aid, spill and emergency number",
+      "Four more trainings: T0 Leading chemical safety (15 slides), T2 Stores, deliveries and spills (16), T3 Chemicals and you (16), How to use the workbook (18): 88 slides in total with T1",
+      "Premium Start Here guide"
+     ],
+     "includes_heading": "Premium adds"
+    }
+   ]
+  },
+  {
+   "slug": "waste-management-plan",
+   "topic": "environment",
+   "tags": [],
+   "family": "WMP",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 3,
+   "badge": "",
+   "title": "Construction Waste Management Plan Bundle",
+   "short": "Editable 14-chapter waste management plan, 25-form Excel workbook, 14 editable waste signs and two training courses for workers and leaders.",
+   "intro": "A structured, editable waste management plan for construction, demolition and excavation sites, with every form you need to run it.",
+   "includes": [
+    "Construction Waste Management Plan (editable Word): 14 chapters, from scope, roles and legal requirements to classification, segregation, storage, transport, duty-of-care checks, monitoring, incidents and continual improvement",
+    "EU and U.S. legal reference catalogues (Appendices A and B)",
+    "Forms and Registers workbook (Excel): 25 forms with a cover index, including waste classification register, vendor approval, transfer evidence, storage inspections, quantities, outcomes, mass balance, monthly KPIs, legal screening, training matrix, incidents, corrective actions, targets and records",
+    "14 editable construction waste signs (PowerPoint)",
+    "Worker training: site rules and segregation (PowerPoint, 42 slides)",
+    "Leaders training for supervisors, engineers and environmental officers (PowerPoint, 83 slides)"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX"
+   ],
+   "stats": [
+    [
+     "14",
+     "plan chapters"
+    ],
+    [
+     "25",
+     "Excel forms"
+    ],
+    [
+     "14",
+     "waste signs"
+    ]
+   ],
+   "note": "Generic template: complete and approve it for each site against the law, permits and contract that apply.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/waste-management-plan/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Bundle",
+     "price_ex_vat": 39.9,
+     "gumroad_url": "",
+     "etsy_id": "4604169988",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "environmental-emergency-pack",
+   "topic": "environment",
+   "tags": [],
+   "family": "EME",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 4,
+   "badge": "",
+   "title": "Environmental Emergency Pack",
+   "short": "Editable spill and pollution emergency toolkit for construction sites: 66-page procedure, 14 action cards, 12 drills, Excel dashboard, 97 training slides.",
+   "intro": "A comprehensive, editable environmental emergency toolkit for construction sites and their site offices: the procedure, the action cards, 12 ready-made spill and pollution drills, the forms and editable posters, an Excel dashboard that shows how ready you are, and a training for every audience. Adapt it to your site and permits, have it approved by your competent people, then train and drill.",
+   "includes": [
+    "Start Here guide (PDF): set-up, running the dashboard, planning drills, delivering the trainings",
+    "Environmental Emergency Preparedness and Response Procedure EME-PRO-01 (Word + PDF, 66 pages): 34 sections in 5 parts, formal company cover, document control, approval and revision history",
+    "14 one-page action cards: spill on land, spill into water, silty run-off, discharge above the limit, leaking container or IBC, fire in a store, firefighting water, utility strike, contaminated ground, flooding, cofferdam breach, spill from a vessel or barge, dust/smoke/fumes to air, sewage or wastewater overflow",
+    "12 drill cards with objectives, set-up, timed script, injects, targets and drill safety (simulants only)",
+    "Annexes: contacts and notification sheet, spill kit contents and placement, inject library, training matrix, settings to approve",
+    "Excel Environmental Emergency Dashboard & Registers (16 sheets, no macros): 8 tiles, drills planned vs done, incidents by level, 13 needs-attention lines, picture-button index; + worked example for a fictional riverside site",
+    "Forms EME-FRM-01 (Word + PDF): EIR-01 environmental incident first report, SKI-01 spill kit inspection, WTR-01 water sampling and turbidity record, WST-01 post-incident waste record, ELP-01 emergency layout plan checklist + library forms DPL-01, DOB-01, DR-01, CLG-01, INC-01, ATT-01",
+    "4 A4 posters (editable PowerPoint + print PDF): Spill? Stop – Contain – Report · Who to tell · The spill kit · Protect the drains and water",
+    "6 trainings, 97 slides with speaker notes (PowerPoint): T0 managers and crisis team (15), T1 environmental officers (17), T2 every site worker (15), T3 site office and stores (16), T4 spill response team (15), How to use the workbook (19)",
+    "Editable Start Here guide and single-organisation licence",
+    "5 downloads"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "14",
+     "action cards"
+    ],
+    [
+     "12",
+     "drill cards"
+    ],
+    [
+     "97",
+     "training slides"
+    ]
+   ],
+   "note": "Written around ISO 14001:2026 clause 8.2, for reference; check your national law and permits. Does not include firefighting, rescue, first aid or evacuation (see the Health & Safety Emergency Pack). Levels, limits and targets are planning defaults: change them to your permits. No emergency or regulator number is assumed.",
+   "upgrade_note": "",
+   "bundles": [
+    "emergency-packs-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/environmental-emergency-pack/01.jpg",
+    "/assets/media/environmental-emergency-pack/02.jpg",
+    "/assets/media/environmental-emergency-pack/03.jpg",
+    "/assets/media/environmental-emergency-pack/04.jpg",
+    "/assets/media/environmental-emergency-pack/05.jpg",
+    "/assets/media/environmental-emergency-pack/06.jpg"
+   ],
+   "video": "/assets/media/environmental-emergency-pack/video.mp4",
+   "variants": [
+    {
+     "key": "premium",
+     "name": "Premium pack",
+     "price_ex_vat": 32.44,
+     "gumroad_url": "",
+     "etsy_id": "4620363566",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "environmental-induction",
+   "topic": "environment",
+   "tags": [
+    "hr-inductions"
+   ],
+   "family": "EI",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 5,
+   "badge": "",
+   "title": "Environmental Induction Training for Construction",
+   "short": "113-slide ISO 14001 awareness induction PowerPoint with delivery procedure, learner test and answer key, trainer guide, certificate and register.",
+   "intro": "Give every worker a clear, practical environmental induction, built around ISO 14001 awareness: an editable 113-slide PowerPoint plus the documents to prepare, deliver, test and record the training.",
+   "includes": [
+    "113-slide induction PowerPoint, fully editable, with speaker notes and click-reveal animations",
+    "Delivery procedure",
+    "Learner test (10 questions) with separate answer key",
+    "Trainer preparation record",
+    "Trainer technical guide",
+    "Editable training certificate",
+    "Attendance register (Excel, up to 40 attendees)"
+   ],
+   "formats": [
+    "PPTX",
+    "DOCX",
+    "XLSX"
+   ],
+   "stats": [
+    [
+     "113",
+     "slides"
+    ],
+    [
+     "10",
+     "test questions"
+    ],
+    [
+     "7",
+     "training documents"
+    ]
+   ],
+   "note": "Generic training material: review it and adapt it to your site, local legislation, environmental permits and emergency arrangements before use. Completing the induction does not replace task-specific training or work authorisation. Best opened in desktop Microsoft PowerPoint.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/environmental-induction/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Kit",
+     "price_ex_vat": 24.9,
+     "gumroad_url": "",
+     "etsy_id": "4599427909",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "employee-hr-induction",
+   "topic": "hr-inductions",
+   "tags": [],
+   "family": "HR",
+   "edition": "ED01-R01",
+   "language": "EN",
+   "status": "live",
+   "order": 1,
+   "badge": "",
+   "title": "Construction Employee HR Induction – Full Pack",
+   "short": "76 editable slides, 17 editable files and a 10-question quiz to welcome and onboard new employees. Add your logo.",
+   "intro": "Welcome, inform and onboard your new direct employees in one pack: a 76-slide editable PowerPoint with a manager guide, quiz, forms, HR database and certificate.",
+   "includes": [
+    "76-slide editable PowerPoint in 16 modules, with trainer notes (+ PDF)",
+    "Line Manager Guide, 30-60-90 Day Plan, and How to Use and Customise guide (Word + PDF)",
+    "10-question Knowledge Check with Answer Key (Word + PDF)",
+    "Forms and handouts: Induction Record, User Agreements, Property Issue and Return Form, Holiday Request and Absence Card, Our Deal Card, Pulse Survey (Word + PDF)",
+    "HR Employee Database (Excel) with a dashboard",
+    "Company Terms Data Sheet, Induction KPI Sheet and Total Reward Statement (Excel)",
+    "Attendance Certificate (PowerPoint + PDF)",
+    "17 editable files: add your company details and logo"
+   ],
+   "formats": [
+    "PPTX",
+    "PDF",
+    "DOCX",
+    "XLSX"
+   ],
+   "stats": [
+    [
+     "76",
+     "editable slides"
+    ],
+    [
+     "17",
+     "editable files"
+    ],
+    [
+     "10",
+     "quiz questions"
+    ]
+   ],
+   "note": "",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/employee-hr-induction/01.jpg"
+   ],
+   "video": "/assets/media/employee-hr-induction/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Full pack",
+     "price_ex_vat": 29.99,
+     "gumroad_url": "",
+     "etsy_id": "4611443386",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "visitor-site-induction",
+   "topic": "hr-inductions",
+   "tags": [
+    "safety"
+   ],
+   "family": "VIS",
+   "edition": "ED01-R01",
+   "language": "EN",
+   "status": "live",
+   "order": 2,
+   "badge": "",
+   "title": "Visitor Site Induction – Short and Full Versions",
+   "short": "Short and full visitor induction presentations, visitor card, car visitor ID, induction record and an Excel visitor register with emergency headcount.",
+   "intro": "Give every site visitor a clear, consistent briefing before they step past reception. Two presentations from one source: a Short version for escorted, low-risk visits and a Full version for drivers, deliveries, service visits and anyone going into operational areas.",
+   "includes": [
+    "Full Presentation: 21 slides, about 20 minutes, PowerPoint (.pptx) and PDF, 16:9",
+    "Short Presentation: 11 slides, 5-7 minutes, PowerPoint (.pptx) and PDF, 16:9",
+    "Speaker notes on every slide of both presentations",
+    "Visitor Card: A5, two-sided, with golden rules, alarm steps, site map and site contacts (PowerPoint + PDF)",
+    "Car Visitor ID: A5 dashboard pass with speed limit, reverse parking and who to call (PowerPoint + PDF)",
+    "Visitor Induction Record and Quick Check: 2 pages with a host answer key (Word + PDF)",
+    "Site Set-up Checklist listing every site detail and where it appears (Word + PDF)",
+    "Visitor Register (Excel) with an On Site Now emergency headcount",
+    "Read Me First and Licence (PDF)"
+   ],
+   "formats": [
+    "PPTX",
+    "PDF",
+    "DOCX",
+    "XLSX"
+   ],
+   "stats": [
+    [
+     "21",
+     "full-version slides"
+    ],
+    [
+     "11",
+     "short-version slides"
+    ],
+    [
+     "7",
+     "editable files"
+    ]
+   ],
+   "note": "General training material, not legal advice; adapt it to your site before use. The register and induction record hold personal data: restrict access, tell visitors why their details are collected, and set a retention period.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [
+    "/assets/media/visitor-site-induction/01.jpg",
+    "/assets/media/visitor-site-induction/02.jpg",
+    "/assets/media/visitor-site-induction/03.jpg",
+    "/assets/media/visitor-site-induction/04.jpg",
+    "/assets/media/visitor-site-induction/05.jpg",
+    "/assets/media/visitor-site-induction/06.jpg"
+   ],
+   "video": "/assets/media/visitor-site-induction/video.mp4",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Full pack",
+     "price_ex_vat": 29.99,
+     "gumroad_url": "",
+     "etsy_id": "4609793910",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "toolbox-talks-premium-bundle",
+   "topic": "toolbox-talks",
+   "tags": [
+    "bundles",
+    "safety"
+   ],
+   "family": "TBTB",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 1,
+   "badge": "Best value",
+   "title": "Toolbox Talk Premium Bundle: 60 Talks, Dashboard and Trainer Kit",
+   "short": "A complete toolbox talk system: 60 ready talks, Excel register and dashboard, a written procedure and a trainer kit to certify presenters.",
+   "intro": "A complete toolbox talk system for construction sites, with 60 ready talks. It also includes everything you need to plan, deliver, check and record them, and to train the people who give them.",
+   "includes": [
+    "Start Here guide (Word + PDF): set the system up in about an hour",
+    "Toolbox Talk Procedure TBT-PRO-01 (Word + PDF): a formal company procedure with cover, document control, approval and revision history",
+    "4 toolbox talk packs, 60 talks (PDF), each with a worker sheet and a speaker sheet; each pack has a reusable Attendance and Actions record (F01) and a supervisor preparation page (F02)",
+    "Pack 04, Plant, Access and Hidden Hazards (talks 46-60)",
+    "Toolbox Talk Register and Dashboard (Excel), blank copy plus a worked example: Programme Planner, Delivery Log, Actions Tracker, Crew Coverage, Presenters, Delivery Observation form (F03), and a check that flags presenters not certified on the date",
+    "How to Use the Bundle: 16 slides with speaker notes (PowerPoint + PDF)",
+    "Trainer kit 'How to Deliver a Toolbox Talk': 26-slide trainer deck (PowerPoint + PDF), trainer guide with session plan, practice exercise, knowledge check and answer key (Word + PDF), editable certificate (PowerPoint + PDF)",
+    "A3 poster 'The five-minute toolbox talk' (editable PowerPoint + print PDF)",
+    "Free completed example: a filled Attendance and Actions record for Talk 53",
+    "Licence"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "60",
+     "toolbox talks"
+    ],
+    [
+     "4",
+     "talk packs"
+    ],
+    [
+     "26",
+     "trainer slides"
+    ]
+   ],
+   "note": "References are HSE (Great Britain) and NIOSH guidance. Check your national law, permits and site rules. Made for desktop Microsoft Excel 2016 or later / Microsoft 365, no macros; picture buttons may not work on tablets or in Google Sheets.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [
+    "toolbox-talks-pack-01",
+    "toolbox-talks-pack-02",
+    "toolbox-talks-pack-03",
+    "toolbox-talks-pack-04"
+   ],
+   "images": [
+    "/assets/media/toolbox-talks-premium-bundle/01.jpg",
+    "/assets/media/toolbox-talks-premium-bundle/02.jpg",
+    "/assets/media/toolbox-talks-premium-bundle/03.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "bundle",
+     "name": "Bundle",
+     "price_ex_vat": 20.33,
+     "gumroad_url": "",
+     "etsy_id": "4601003820",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "toolbox-talks-pack-01",
+   "topic": "toolbox-talks",
+   "tags": [],
+   "family": "TBT1",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 2,
+   "badge": "",
+   "title": "Construction Toolbox Talks Pack 01: Site Safety Essentials",
+   "short": "15 toolbox talks with worker and speaker sheets: PPE, working at height, housekeeping and the site basics.",
+   "intro": "Fifteen short, practical toolbox talks on the basics of working safely on site. Each talk is a five-minute conversation with a worker sheet and a speaker sheet.",
+   "includes": [
+    "15 toolbox talks (topics 01-15): PPE, working at height, slips trips and falls, manual handling, housekeeping, ladders and stepladders, hand and power tools, electrical safety, excavations and trenches, fire safety, vehicle and pedestrian interface, hazard reporting and stop work, plant and machinery, adverse weather, work permits and authorisation",
+    "15 worker sheets and 15 speaker sheets (printable A4 PDF, 35 pages)",
+    "Attendance and actions record and preparation checklist",
+    "Attendance register (Excel)",
+    "Attendance certificate (editable + PDF)"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX",
+    "DOCX"
+   ],
+   "stats": [
+    [
+     "15",
+     "toolbox talks"
+    ],
+    [
+     "30",
+     "worker and speaker sheets"
+    ],
+    [
+     "35",
+     "A4 pages"
+    ]
+   ],
+   "note": "Adapt the controls, contacts and limits to your site before delivery.",
+   "upgrade_note": "",
+   "bundles": [
+    "toolbox-talks-premium-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/toolbox-talks-pack-01/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 01",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4599521302",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "toolbox-talks-pack-02",
+   "topic": "toolbox-talks",
+   "tags": [],
+   "family": "TBT2",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 3,
+   "badge": "",
+   "title": "Construction Toolbox Talks Pack 02: High-Risk Tasks and Controls",
+   "short": "15 toolbox talks with worker and speaker sheets: lifting, scaffolding, confined spaces, hot work, LOTO and more.",
+   "intro": "Fifteen toolbox talks on the tasks and controls behind the most serious incidents. Each talk is a five-minute conversation with a worker sheet and a speaker sheet.",
+   "includes": [
+    "15 toolbox talks (topics 16-30): lifting operations, scaffolding, confined spaces, hot work, abrasive wheels, silica dust, noise and hearing, hazardous substances and SDS, temporary works, concrete and formwork, energy isolation / LOTO, dropped objects, mobile elevating work platforms, underground services, overhead power lines",
+    "15 worker sheets and 15 speaker sheets (printable A4 PDF, 35 pages)",
+    "Attendance and actions record and preparation checklist",
+    "Attendance register (Excel)",
+    "Attendance certificate (editable + PDF)"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX",
+    "DOCX"
+   ],
+   "stats": [
+    [
+     "15",
+     "toolbox talks"
+    ],
+    [
+     "30",
+     "worker and speaker sheets"
+    ],
+    [
+     "35",
+     "A4 pages"
+    ]
+   ],
+   "note": "Adapt the controls, contacts and limits to your site before delivery.",
+   "upgrade_note": "",
+   "bundles": [
+    "toolbox-talks-premium-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/toolbox-talks-pack-02/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 02",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4599522170",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "toolbox-talks-pack-03",
+   "topic": "toolbox-talks",
+   "tags": [],
+   "family": "TBT3",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 4,
+   "badge": "",
+   "title": "Construction Toolbox Talks Pack 03: Health, Wellbeing and Environment",
+   "short": "15 toolbox talks with worker and speaker sheets: asbestos, heat stress, mental health, spills, waste and more.",
+   "intro": "Fifteen toolbox talks on health, wellbeing and environmental risks people don't always see. Each talk is a five-minute conversation with a worker sheet and a speaker sheet.",
+   "includes": [
+    "15 toolbox talks (topics 31-45): asbestos awareness, hand-arm vibration, welding fume, respiratory protection and face fit, wet cement and skin protection, heat stress and sun exposure, cold stress and wet conditions, welfare and hygiene, fatigue and fitness for work, mental health and wellbeing, lone working and check-ins, emergency response and first aid, environmental awareness, spill prevention and response, waste segregation and disposal",
+    "15 worker sheets and 15 speaker sheets (printable A4 PDF, 35 pages)",
+    "Attendance and actions record and preparation checklist",
+    "Attendance register (Excel)",
+    "Attendance certificate (editable + PDF)"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX",
+    "DOCX"
+   ],
+   "stats": [
+    [
+     "15",
+     "toolbox talks"
+    ],
+    [
+     "30",
+     "worker and speaker sheets"
+    ],
+    [
+     "35",
+     "A4 pages"
+    ]
+   ],
+   "note": "Adapt the controls, contacts and limits to your site before delivery.",
+   "upgrade_note": "",
+   "bundles": [
+    "toolbox-talks-premium-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/toolbox-talks-pack-03/01.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 03",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4599499039",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "toolbox-talks-pack-04",
+   "topic": "toolbox-talks",
+   "tags": [],
+   "family": "TBT4",
+   "edition": "",
+   "language": "EN",
+   "status": "live",
+   "order": 5,
+   "badge": "",
+   "title": "Construction Toolbox Talks Pack 04: Plant, Access and Hidden Hazards",
+   "short": "15 five-minute toolbox talks on plant, access and hidden hazards: forklifts, telehandlers, fall arrest, slinging and more.",
+   "intro": "Fifteen new five-minute toolbox talks covering plant, access and the hazards you cannot see. They use the same design as Packs 01-03.",
+   "includes": [
+    "15 toolbox talks (talks 46-60): line of fire and pinch points, hand safety and gloves, eye protection, openings holes and fragile surfaces, mobile access towers, fall arrest anchors and rescue, slinging and signalling, forklifts and telehandlers, compact plant (dumpers and skid steers), getting on and off plant, carbon monoxide and engine-driven equipment, biological hazards (sewage, rats and sharps), gas cylinders and compressed air, protecting the public and road works, last-minute risk check when the job changes",
+    "Each talk has two pages. The worker sheet has the message, good and bad practice photos, five key messages, the before-you-start checks and the stop trigger",
+    "The speaker sheet has the timings, talking points, a practical insight, a safe demonstration, three questions with answers, 'If someone asks' and the references",
+    "A reusable Attendance and Actions record",
+    "A supervisor preparation page",
+    "A reference register with clickable HSE and NIOSH links",
+    "Digital download: PDF, 35 A4 pages"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "stats": [
+    [
+     "15",
+     "toolbox talks"
+    ],
+    [
+     "2",
+     "pages per talk"
+    ],
+    [
+     "35",
+     "A4 pages"
+    ]
+   ],
+   "note": "References are HSE (Great Britain) and NIOSH guidance. Check your national law, permits and site rules.",
+   "upgrade_note": "",
+   "bundles": [
+    "toolbox-talks-premium-bundle"
+   ],
+   "contains": [],
+   "images": [
+    "/assets/media/toolbox-talks-pack-04/01.jpg",
+    "/assets/media/toolbox-talks-pack-04/02.jpg",
+    "/assets/media/toolbox-talks-pack-04/03.jpg",
+    "/assets/media/toolbox-talks-pack-04/04.jpg"
+   ],
+   "video": "",
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack 04",
+     "price_ex_vat": 4.99,
+     "gumroad_url": "",
+     "etsy_id": "4622717736",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "emergency-packs-bundle",
+   "topic": "safety",
+   "tags": [
+    "bundles",
+    "environment"
+   ],
+   "family": "EMB",
+   "edition": "ED01",
+   "language": "EN",
+   "status": "live",
+   "order": 6,
+   "badge": "Best value",
+   "title": "Health & Safety + Environmental Emergency Packs – Bundle",
+   "short": "Both emergency systems for your construction site in one bundle: two procedures, 27 action cards, 27 drills, two Excel dashboards, 207 training slides.",
+   "intro": "Both emergency systems for your construction site in one bundle, people and the environment. The Health & Safety Emergency Pack covers fire, injury, rescue, evacuation and the site office; the Environmental Emergency Pack covers spills, releases to water, air and ground, firefighting water, dust and sewage.",
+   "includes": [
+    "Start Here (PDF): how the bundle is organised, then the Start Here guide of each pack",
+    "Health & Safety pack: Emergency Preparedness and Response Procedure EMS-PRO-01 (Word + PDF, 78 pages) + Emergency Dashboard & Registers workbook and worked example (Excel)",
+    "Environmental pack: Environmental Emergency Preparedness and Response Procedure EME-PRO-01 (Word + PDF, 66 pages) + Environmental Emergency Dashboard & Registers workbook and worked example (Excel)",
+    "13 H&S action cards + 14 environmental action cards",
+    "15 H&S drill cards + 12 environmental drill cards (simulants only)",
+    "15 different forms (Word + PDF): 6 shared (DPL-01, DOB-01, DR-01, CLG-01, INC-01, ATT-01), 4 H&S (RCS-01, ECS-01, EEC-01, PEP-01), 5 environmental (EIR-01, SKI-01, WTR-01, WST-01, ELP-01)",
+    "7 A4 posters (editable PowerPoint + print PDF): 3 H&S + 4 environmental",
+    "Trainings (PowerPoint, 207 slides with speaker notes, group exercises and knowledge checks): T0 managers and crisis team, T1 HSE and environmental officers, T2 every site worker, T3 office staff, reception and stores, T4 emergency team and spill response team, How to use each workbook",
+    "Editable Start Here guides and both single-organisation licences",
+    "5 downloads, each pack keeps its own folder"
+   ],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "stats": [
+    [
+     "27",
+     "action cards"
+    ],
+    [
+     "2",
+     "Excel dashboards"
+    ],
+    [
+     "207",
+     "training slides"
+    ]
+   ],
+   "note": "Written around ISO 45001 clause 8.2 and ISO 14001:2026 clause 8.2, for reference; check your national law, permits and client requirements. First aid, rescue and firefighting certificates need hands-on training by a competent provider. No emergency or regulator number is assumed.",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [
+    "health-safety-emergency-pack",
+    "environmental-emergency-pack"
+   ],
+   "images": [
+    "/assets/media/emergency-packs-bundle/01.jpg",
+    "/assets/media/emergency-packs-bundle/02.jpg",
+    "/assets/media/emergency-packs-bundle/03.jpg",
+    "/assets/media/emergency-packs-bundle/04.jpg",
+    "/assets/media/emergency-packs-bundle/05.jpg",
+    "/assets/media/emergency-packs-bundle/06.jpg"
+   ],
+   "video": "/assets/media/emergency-packs-bundle/video.mp4",
+   "variants": [
+    {
+     "key": "bundle",
+     "name": "Bundle",
+     "price_ex_vat": 56.83,
+     "gumroad_url": "",
+     "etsy_id": "4620358855",
+     "status": "live",
+     "includes": [],
+     "includes_heading": ""
+    }
+   ]
+  },
+  {
+   "slug": "method-statement-system-pack",
+   "topic": "safety",
+   "tags": [],
+   "family": "MS",
+   "order": 20,
+   "status": "coming_soon",
+   "hidden": true,
+   "title": "Construction Method Statement System Pack",
+   "edition": "ED01",
+   "short": "Coming soon.",
+   "intro": "Coming soon.",
+   "includes": [],
+   "formats": [
+    "DOCX",
+    "XLSX",
+    "PPTX",
+    "PDF"
+   ],
+   "variants": [
+    {
+     "key": "pack",
+     "name": "Pack",
+     "price_ex_vat": 31.71,
+     "gumroad_url": "",
+     "etsy_id": "",
+     "status": "coming_soon"
+    }
+   ],
+   "language": "EN",
+   "stats": [],
+   "note": "",
+   "upgrade_note": "",
+   "bundles": [],
+   "contains": [],
+   "images": [],
+   "video": "",
+   "badge": ""
+  }
+ ]
+}
