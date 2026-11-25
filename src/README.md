@@ -35,7 +35,7 @@ repo/
   (`kind: "collection"`: Bundles, Management System Packs). Each has a key, name, URL path, colour and blurb.
 - `families`: one record per product page. Standard and Premium are `variants` of ONE family, so they share one
   page and one URL with a selector.
-- `courses`: the Udemy courses shown in the footer and on the Toolbox Talks page.
+- `courses`: the video courses shown on `/courses/`, the homepage, the footer and the Toolbox Talks page.
 - `pages`: the About, Help, Licence, Refunds, FAQ, Contact, Terms, Privacy and Seller information pages (HTML; `{EMAIL}`,
   `{SELLER}`, `{LOCATION}`, `{UPDATED}` are filled in from `site`).
 

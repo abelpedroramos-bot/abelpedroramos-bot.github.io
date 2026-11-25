@@ -108,7 +108,8 @@ def nav_html(current):
              f'<a href="{topic_url("management-systems")}"{cur("management-systems")}>Management System Packs</a>']
     if SITE.get('free_sample_url'):
         items.append(f'<a href="{SITE["free_sample_url"]}"{cur("free")}>Free sample</a>')
-    items += [f'<a href="/praxterra/"{cur("praxterra")}>PRAXTERRA</a>',
+    items += [f'<a href="/courses/"{cur("courses")}>Courses</a>',
+             f'<a href="/praxterra/"{cur("praxterra")}>PRAXTERRA</a>',
              f'<a href="/about/"{cur("about")}>About</a>', f'<a href="/help/"{cur("help")}>Help</a>']
     return ''.join(items)
 
@@ -118,7 +119,7 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
     gum = f'\n<script src="{SITE["gumroad_script"]}"></script>' if gumroad else ''
     topics = [t for t in CAT['topics'] if t.get('kind') == 'topic']
     shop_links = ''.join(f'<a href="{topic_url(t["key"])}">{e(t["name"])}</a>' for t in topics)
-    course_links = ''.join(f'<a href="{e(c["url"])}" rel="noopener">{e(c["title"])}</a>' for c in COURSES if c.get('status') == 'live')
+    course_links = ''.join(f'<a href="/courses/#{e(c["slug"])}">{e(c["title"])}</a>' for c in COURSES if c.get('status') == 'live')
     WRITTEN.append(path)
     return f'''<!DOCTYPE html>
 <html lang="{SITE.get('language', 'en')}">
@@ -160,10 +161,10 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
 <a href="mailto:{EMAIL}" style="text-decoration:none;font-weight:700;color:#FFFFFF">{EMAIL}</a>
 </div>
 <nav aria-label="Footer">
-<div><b>Shop</b>{shop_links}<a href="{topic_url('bundles')}">Bundles</a><a href="{topic_url('management-systems')}">Management System Packs</a><a href="/shop/">All products</a><a href="/praxterra/">PRAXTERRA</a></div>
+<div><b>Shop</b>{shop_links}<a href="{topic_url('bundles')}">Bundles</a><a href="{topic_url('management-systems')}">Management System Packs</a><a href="/shop/">All products</a><a href="/courses/">Courses</a><a href="/praxterra/">PRAXTERRA</a></div>
 <div><b>Help</b><a href="/help/licence/">Licence</a><a href="/help/refunds/">Refunds</a><a href="/help/faq/">FAQ</a><a href="/help/contact/">Contact</a></div>
 <div><b>Legal</b><a href="/legal/terms/">Terms of sale</a><a href="/legal/privacy/">Privacy policy</a><a href="/legal/imprint/">Seller information</a></div>
-<div><b>Video courses on Udemy</b>{course_links}</div>
+<div><b>Courses</b><a href="/courses/">All courses</a>{course_links}</div>
 </nav>
 </div>
 <div class="wrap legalline">© {SITE['year']} {e(SITE['seller'])} · {e(SITE['location'])} · Payments are processed by Gumroad, our reseller and merchant of record, which handles payment, VAT and sales tax and issues your receipt.</div>
@@ -216,6 +217,56 @@ def card(f):
 
 def grid(fs):
     return '<div class="grid">' + ''.join(card(f) for f in fs) + '</div>'
+
+def live_courses():
+    return [c for c in COURSES if c.get('status') == 'live']
+
+def course_card(c):
+    colour = c.get('colour', '#14254A')
+    tags = f'<span class="tag" style="--c:{colour}">{e(c.get("topic_label", "Course"))}</span>'
+    tags += f'<span class="tag tag-o">{c["videos"]} videos · {e(c["duration"])}</span>'
+    inc = ''.join(f'<li>{ic("check", 16)} <span>{e(item)}</span></li>' for item in c.get('includes', []))
+    inc_html = f'<ul class="course-includes">{inc}</ul>' if inc else ''
+    aud = f'<p class="course-audience">{e(c["audience"])}</p>' if c.get('audience') else ''
+    price = f'<span class="price">{eur(c["price"])} <small>VAT added at checkout for your country</small></span>'
+    buy = (
+        f'<a class="gumroad-button btn btn-primary btn-sm" href="{e(c["gumroad_url"])}" '
+        f'data-gumroad-overlay-checkout="true">Buy</a>'
+    )
+    return (
+        f'<article class="card course-card" id="{e(c["slug"])}" style="--c:{colour}">'
+        f'<div class="card-body">'
+        f'<div class="tags">{tags}</div>'
+        f'<h3><a href="/courses/#{e(c["slug"])}">{e(c["title"])}</a></h3>'
+        f'<p>{e(c["short"])}</p>'
+        f'{inc_html}'
+        f'{aud}'
+        f'<div class="card-foot">{price}{buy}</div>'
+        f'</div>'
+        f'</article>'
+    )
+
+def courses_grid(cs=None):
+    cs = cs if cs is not None else live_courses()
+    return '<div class="grid courses-grid">' + ''.join(course_card(c) for c in cs) + '</div>'
+
+def courses_page():
+    cs = live_courses()
+    body = (
+        '<section class="tband" style="--c:#14254A"><div class="wrap">'
+        '<div class="crumbs"><a href="/">Home</a> / Courses</div>'
+        '<h1>Courses</h1>'
+        '<p>Video courses for construction site training, with the downloadable packs you need to put them into practice. Instant download after purchase.</p>'
+        '</div></section>'
+        '<section class="section"><div class="wrap">'
+        f'{courses_grid(cs)}'
+        '<p class="note" style="margin-top:32px">These courses are training resources. Completion does not establish competence, accreditation or site authorisation. Licensed for use within your own organisation.</p>'
+        '</div></section>'
+    )
+    return page(
+        'Courses | Field Ready QHSE',
+        'Video courses for construction site training, with downloadable packs. Instant download.',
+        body, '/courses/', 'courses', gumroad=True)
 
 def buy_button(f, v):
     if f.get('status') != 'live' or v.get('status', 'live') != 'live':
@@ -333,11 +384,11 @@ def topic_page(k):
     fs = sorted([f for f in FAM if in_topic(f, k)], key=lambda x: x.get('order', 99))
     extra = ''
     if k == 'toolbox-talks':
-        cs = [c for c in COURSES if c.get('status') == 'live']
+        cs = live_courses()
         if cs:
-            extra = ('<div class="group" style="margin-top:48px"><div class="group-head"><div><h3>Video courses</h3><p>Hosted on Udemy (opens the course page on udemy.com).</p></div></div><div class="grid">' +
-                     ''.join(f'<article class="card course" style="--c:{t["colour"]}"><span>{ic("play")}</span><h3>{e(c["title"])}</h3><span class="meta">Udemy video course</span><div><a class="btn btn-outline btn-sm" href="{e(c["url"])}" rel="noopener">View on Udemy</a></div></article>' for c in cs) +
-                     '</div></div>')
+            extra = ('<div class="group" style="margin-top:48px"><div class="group-head"><div><h3>Video courses</h3><p>Video lessons plus the downloadable packs to use on site.</p></div>'
+                     '<a class="btn btn-outline btn-sm" href="/courses/">All courses</a></div>' +
+                     courses_grid(cs) + '</div>')
     body = f'''
 <section class="tband" style="--c:{t['colour']}"><div class="wrap">
 <div class="crumbs"><a href="/">Home</a> / {e(t['name'])}</div>
@@ -347,7 +398,8 @@ def topic_page(k):
 {grid(fs)}
 {extra}
 </div></section>'''
-    return page(f'{t["name"]} | Field Ready QHSE', t['blurb'], body, topic_url(k), k)
+    gum = (k == 'toolbox-talks' and any(c.get('gumroad_url') for c in live_courses()))
+    return page(f'{t["name"]} | Field Ready QHSE', t['blurb'], body, topic_url(k), k, gum)
 
 def shop_page():
     groups = ''
@@ -371,7 +423,7 @@ def home_page():
     tiles = ''.join(f'<a class="tile" style="--c:{t["colour"]}" href="{topic_url(t["key"])}"><b>{e(t["name"])}</b><span>{e(t["tile"])}</span><em>{sum(1 for f in FAM if in_topic(f, t["key"]))} packs →</em></a>' for t in topics)
     ms = sorted([f for f in FAM if in_topic(f, 'management-systems')], key=lambda x: x.get('order', 99))
     bd = sorted([f for f in FAM if in_topic(f, 'bundles')], key=lambda x: x.get('order', 99))
-    courses = ''.join(f'<article class="card course" style="--c:{TOPICS["toolbox-talks"]["colour"]}"><span>{ic("play")}</span><h3>{e(c["title"])}</h3><span class="meta">Udemy video course</span><div><a class="btn btn-outline btn-sm" href="{e(c["url"])}" rel="noopener">View on Udemy</a></div></article>' for c in COURSES if c.get('status') == 'live')
+    courses = courses_grid()
     hero_img = SITE.get('home_image')
     himg = f'<div class="hero-img"><img src="{hero_img}" alt="{e(SITE.get("home_image_alt", ""))}" width="900" height="900"></div>' if hero_img else ''
     body = f'''
@@ -417,12 +469,14 @@ def home_page():
 </div>
 </div></section>
 <section class="section" aria-labelledby="courses-h"><div class="wrap">
-<h2 id="courses-h">Video courses</h2>
-<p class="lead" style="margin-bottom:24px">Learn to deliver inductions and toolbox talks with confidence. Courses are hosted on Udemy.</p>
-<div class="grid">{courses}</div>
+<div class="section-head"><div><h2 id="courses-h">Courses</h2>
+<p class="lead">Learn to deliver inductions and toolbox talks with confidence. Each course includes the video lessons and a downloadable pack.</p></div>
+<a class="btn btn-outline btn-sm" href="/courses/">All courses</a></div>
+{courses}
+<p class="note" style="margin-top:24px">These courses are training resources. Completion does not establish competence, accreditation or site authorisation.</p>
 </div></section>
 '''
-    return page('Field Ready QHSE — Editable QHSE documents for construction', SITE['home_desc'], body, '/', 'home')
+    return page('Field Ready QHSE — Editable QHSE documents for construction', SITE['home_desc'], body, '/', 'home', gumroad=True)
 
 def text_page(path, title, inner, current='', desc=''):
     return page(f'{title} | Field Ready QHSE', desc or f'{title} – Field Ready QHSE.', f'<article class="legal"><h1>{e(title)}</h1>{inner}</article>', path, current)
@@ -493,6 +547,7 @@ def main():
     copy_assets()
     write('/', home_page())
     write('/shop/', shop_page())
+    write('/courses/', courses_page())
     for t in CAT['topics']:
         write(topic_url(t['key']), topic_page(t['key']))
     for f in FAM:
@@ -512,7 +567,7 @@ def main():
     with open(os.path.join(OUT, 'robots.txt'), 'w') as fh:
         fh.write(f'User-agent: *\nAllow: /\nDisallow: /src/\nSitemap: {DOMAIN}/sitemap.xml\n')
     with open(os.path.join(OUT, 'CNAME'), 'w') as fh:
-        fh.write(DOMAIN.split('://', 1)[1])
+        fh.write(DOMAIN.split('://', 1)[1] + '\n')
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     print(f'built {len(FAM)} product pages, {len(WRITTEN)} pages in total -> {OUT}')
 

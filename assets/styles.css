@@ -143,6 +143,14 @@ a.gumroad-button .logo-full,a.gumroad-button .gumroad-button-logo{display:none!i
 /* Courses */
 .course{padding:22px;gap:12px;border-top-color:var(--tbt)}
 .course .meta{font-size:14px;color:var(--muted)}
+.courses-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+@media (max-width:800px){.courses-grid{grid-template-columns:1fr}}
+.course-card{scroll-margin-top:96px}
+.course-card .card-foot{flex-wrap:wrap;align-items:flex-end}
+.course-includes{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px;color:var(--ink)}
+.course-includes li{display:flex;gap:8px;align-items:flex-start;line-height:1.4}
+.course-includes svg{flex:none;color:#1E7B45;margin-top:2px}
+.course-audience{font-size:13.5px;color:var(--muted);margin:0}
 
 /* Split sections */
 .split{display:flex;flex-wrap:wrap;gap:48px;align-items:center}

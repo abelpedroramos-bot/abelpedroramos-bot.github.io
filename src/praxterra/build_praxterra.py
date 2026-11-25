@@ -21,6 +21,7 @@ DOMAIN = 'https://fieldreadyqhse.com'
 FRQ_LINKS = {
     'home': '',
     'packs': 'shop/',
+    'courses': 'courses/',
     'contact': 'help/contact/',
     'terms': 'legal/terms/',
     'refund': 'help/refunds/',
@@ -123,6 +124,7 @@ def page(title, desc, body, depth, canonical, gumroad=False):
 <a class="px-logo" href="{r}{FRQ_LINKS['home'] or './'}"><img src="{r}assets/logo.png" alt="Field Ready QHSE home" width="60" height="44"></a>
 <nav class="px-nav" aria-label="Main">
 <a href="{r}{FRQ_LINKS['packs']}">All packs</a>
+<a href="{r}{FRQ_LINKS['courses']}">Courses</a>
 <a href="{s}" aria-current="page">PRAXTERRA tools</a>
 <a href="{r}{FRQ_LINKS['contact']}">Contact</a>
 </nav>
