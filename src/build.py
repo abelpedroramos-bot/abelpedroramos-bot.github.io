@@ -10,6 +10,7 @@ No third-party packages are needed (Python 3.8+).
 """
 import html, json, os, shutil, subprocess, sys
 from datetime import date
+from urllib.parse import quote
 
 SRC = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(SRC)
@@ -181,7 +182,7 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
 </div>
 <nav aria-label="Footer">
 <div><b>Shop</b>{shop_links}<a href="{topic_url('bundles')}">Bundles</a><a href="{topic_url('management-systems')}">Management System Packs</a><a href="/shop/">All products</a><a href="/courses/">Courses</a><a href="/praxterra/">PRAXTERRA</a></div>
-<div><b>Help</b><a href="/help/licence/">Licence</a><a href="/help/refunds/">Refunds</a><a href="/help/faq/">FAQ</a><a href="/help/contact/">Contact</a></div>
+<div><b>Help</b><a href="/help/courses/">Video course help</a><a href="/help/licence/">Licence</a><a href="/help/refunds/">Refunds</a><a href="/help/faq/">FAQ</a><a href="/help/contact/">Contact</a></div>
 <div><b>Legal</b><a href="/legal/terms/">Terms of sale</a><a href="/legal/privacy/">Privacy policy</a><a href="/legal/imprint/">Seller information</a></div>
 <div><b>Courses</b><a href="/courses/">All courses</a>{course_links}</div>
 </nav>
@@ -276,6 +277,7 @@ def courses_page():
         '<div class="crumbs"><a href="/">Home</a> / Courses</div>'
         '<h1>Courses</h1>'
         '<p>Video courses for construction site training, with the downloadable packs you need to put them into practice. Instant download after purchase.</p>'
+        + room_cta() +
         '</div></section>'
         '<section class="section"><div class="wrap">'
         f'{courses_grid(cs)}'
@@ -497,6 +499,39 @@ def home_page():
 '''
     return page('Field Ready QHSE — Editable QHSE documents for construction', SITE['home_desc'], body, '/', 'home', gumroad=True)
 
+# Course Room help (/help/courses/) and the link on /courses/.
+# Buy buttons still come from each course's gumroad_url in catalogue.json.
+ROOM = SITE.get('course_room_url', '').rstrip('/')
+
+def mailto(subject, lines):
+    return f"mailto:{EMAIL}?subject={quote(subject)}&body={quote(chr(10).join(lines) + chr(10))}"
+
+def fill_course_room(h):
+    if ROOM:
+        room_line = f'Open the <a href="{e(ROOM)}/">Course Room</a> (<code>{e(ROOM.split("://", 1)[-1])}</code>).'
+        room_line2 = f'Go to <a href="{e(ROOM)}/">{e(ROOM.split("://", 1)[-1])}</a> or use the Course Room link in your Gumroad receipt.'
+        verify_line = f'<a href="{e(ROOM)}/verify/">certificate check page</a> (<code>{e(ROOM.split("://", 1)[-1])}/verify/</code>). The check link printed on each certificate opens it with the number already filled in'
+    else:
+        room_line = 'Open the Course Room link in your Gumroad receipt.'
+        room_line2 = 'Use the Course Room link in your Gumroad receipt.'
+        verify_line = 'certificate check page: use the check link printed on the certificate, or <b>Check a certificate</b> at the bottom of every Course Room page'
+    return (h.replace('{ROOM_LINE}', room_line).replace('{ROOM_LINE2}', room_line2).replace('{VERIFY_LINE}', verify_line)
+             .replace('{MAIL_ACCESS}', e(mailto('Course access code request', [
+                 'Course(s) I bought:', 'Email address used at checkout:', 'Gumroad receipt or order number:', 'Date of purchase:'])))
+             .replace('{MAIL_RESET}', e(mailto('Course quiz reset request', [
+                 'Course:', 'Email address I sign in with:', 'Licence key or access code:', 'My last quiz score:'])))
+             .replace('{MAIL_SIGNIN}', e(mailto('Course Room problem', [
+                 'Course:', 'Email address used at checkout:', 'What the Course Room says (copy the message):', 'Device and browser (e.g. Android phone, Chrome):']))))
+
+def room_cta():
+    if not ROOM:
+        return '<p style="margin-top:16px"><a class="btn btn-outline btn-sm" href="/help/courses/">Video course help</a></p>'
+    return (
+        f'<p style="margin-top:16px">Already bought a course? '
+        f'<a class="btn btn-primary btn-sm" href="{e(ROOM)}/">Open the Course Room</a> '
+        f'<a class="btn btn-outline btn-sm" href="/help/courses/">Video course help</a></p>'
+    )
+
 def text_page(path, title, inner, current='', desc=''):
     return page(f'{title} | Field Ready QHSE', desc or f'{title} – Field Ready QHSE.', f'<article class="legal"><h1>{e(title)}</h1>{inner}</article>', path, current)
 
@@ -515,9 +550,10 @@ def free_page():
 # ---------------------------------------------------------------- static text pages (from catalogue.json "pages")
 def build_text_pages():
     for p in CAT['pages']:
-        inner = p['html'].replace('{EMAIL}', EMAIL).replace('{SELLER}', e(SITE['seller'])).replace('{LOCATION}', e(SITE['location'])).replace('{UPDATED}', e(SITE['legal_updated']))
+        inner = fill_course_room(p['html']).replace('{EMAIL}', EMAIL).replace('{SELLER}', e(SITE['seller'])).replace('{LOCATION}', e(SITE['location'])).replace('{UPDATED}', e(SITE['legal_updated']))
         if p['path'] == '/help/':
             inner += '<div class="helpgrid">' + ''.join(f'<a href="{h}"><b>{e(n)}</b><span>{e(d)}</span></a>' for h, n, d in [
+                ('/help/courses/', 'Video courses', 'Open a course with your licence key, quiz rules, certificates'),
                 ('/help/licence/', 'Licence', 'What you can and can’t do with the files'),
                 ('/help/refunds/', 'Refunds', 'Faulty or missing files, and how to report a problem'),
                 ('/help/faq/', 'FAQ', 'Software, formats, payment and delivery'),
@@ -586,6 +622,8 @@ def main():
     build_text_pages()
     write('/free/', free_page())
     write('/404.html', notfound())
+    if not ROOM:
+        print('NOTE: site.course_room_url is empty, so /help/courses/ points buyers to the link in their Gumroad receipt. Fill it at go-live and rebuild.')
     px = os.path.join(SRC, 'praxterra', 'build_praxterra.py')
     if os.path.isfile(px):
         subprocess.check_call([sys.executable, px, '--site-root', OUT])
