@@ -104,3 +104,11 @@ doesn't exist.
 
 **Removed pages.** The build overwrites pages but does not delete old ones. If you rename a slug or retire a product,
 remove its old folder by hand (and keep the old URL working with a redirect page if it was ever shared).
+
+## Gumroad pack checkout (`gumroad_map.json`)
+
+Pack and bundle Buy buttons are driven by `src/gumroad_map.json`, not by editing every `gumroad_url` in the catalogue. Each variant has a `permalink` (the Gumroad `/l/...` id) and a `published` flag. The build emits a live Buy link only when `published` is true. Variants that are not yet published keep the disabled “Available soon” button.
+
+Do not put the four video courses in this map. Their Buy buttons stay in `catalogue.json` and must not be changed here.
+
+After a Gumroad pack is published, set `published` to `true` for that variant (both variants, if Standard and Premium share one Gumroad product), then run `python3 src/build.py`.

@@ -1,0 +1,200 @@
+{
+  "comment": "Pack and bundle Gumroad permalinks. Buy buttons are switched on only when published is true. Do not list the four video courses here — they stay as they are in catalogue.json. After a draft is published on Gumroad, set published to true for that variant (or both variants if they share one product URL) and rebuild the site.",
+  "products": {
+    "iso-9001-qms-pack": {
+      "pack": {
+        "permalink": "bpjvfh",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/bpjvfh"
+      }
+    },
+    "iso-9001-2026-transition-pack": {
+      "standard": {
+        "permalink": "rjosch",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/rjosch"
+      },
+      "premium": {
+        "permalink": "rjosch",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/rjosch"
+      }
+    },
+    "quality-site-induction": {
+      "pack": {
+        "permalink": "petryt",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/petryt"
+      }
+    },
+    "iso-45001-safety-management-pack": {
+      "pack": {
+        "permalink": "ylpobz",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/ylpobz"
+      }
+    },
+    "hse-plan": {
+      "standard": {
+        "permalink": "nyifqu",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/nyifqu"
+      },
+      "premium": {
+        "permalink": "nyifqu",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/nyifqu"
+      }
+    },
+    "permit-to-work-system": {
+      "pack": {
+        "permalink": "ckonvb",
+        "published": false,
+        "url": "https://fieldreadyqhse.gumroad.com/l/ckonvb"
+      }
+    },
+    "risk-assessment-rams": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "health-safety-emergency-pack": {
+      "premium": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "plant-inspection-checklists": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "tool-inspection-checklists": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "equipment-checklists-bundle": {
+      "bundle": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "safety-site-induction": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "iso-14001-2026-transition-pack": {
+      "standard": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      },
+      "premium": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "chemical-coshh-management-pack": {
+      "standard": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      },
+      "premium": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "waste-management-plan": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "environmental-emergency-pack": {
+      "premium": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "environmental-induction": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "employee-hr-induction": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "visitor-site-induction": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "toolbox-talks-premium-bundle": {
+      "bundle": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "toolbox-talks-pack-01": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "toolbox-talks-pack-02": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "toolbox-talks-pack-03": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "toolbox-talks-pack-04": {
+      "pack": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    },
+    "emergency-packs-bundle": {
+      "bundle": {
+        "permalink": "",
+        "published": false,
+        "url": ""
+      }
+    }
+  }
+}
