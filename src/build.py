@@ -48,7 +48,10 @@ def apply_gumroad_map():
         for v in f.get('variants') or []:
             info = entry.get(v.get('key')) or {}
             if info.get('published') and info.get('permalink'):
-                v['gumroad_url'] = f"https://fieldreadyqhse.gumroad.com/l/{info['permalink']}"
+                url = f"https://fieldreadyqhse.gumroad.com/l/{info['permalink']}"
+                if info.get('option'):
+                    url += f"?option={quote(info['option'], safe='')}"
+                v['gumroad_url'] = url
 
 apply_gumroad_map()
 
