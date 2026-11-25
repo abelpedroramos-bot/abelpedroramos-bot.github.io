@@ -32,6 +32,25 @@ TODAY = SITE.get('updated', date.today().isoformat())
 e = html.escape
 WRITTEN = []
 
+# Pack/bundle checkout URLs come from src/gumroad_map.json. A Buy link is
+# emitted only when that variant is marked published. Course products are
+# not in the map and are left as they are in catalogue.json.
+GUMROAD_MAP_FILE = os.path.join(SRC, 'gumroad_map.json')
+
+def apply_gumroad_map():
+    if not os.path.isfile(GUMROAD_MAP_FILE):
+        return
+    mp = json.load(open(GUMROAD_MAP_FILE, encoding='utf-8'))
+    products = mp.get('products', {})
+    for f in CAT['families']:
+        entry = products.get(f.get('slug')) or {}
+        for v in f.get('variants') or []:
+            info = entry.get(v.get('key')) or {}
+            if info.get('published') and info.get('permalink'):
+                v['gumroad_url'] = f"https://fieldreadyqhse.gumroad.com/l/{info['permalink']}"
+
+apply_gumroad_map()
+
 # ---------------------------------------------------------------- helpers
 def url_of(f):
     return f"/{TOPICS[f['topic']]['path']}/{f['slug']}/"
@@ -157,7 +176,7 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
 <div style="display:flex;flex-direction:column;gap:12px;flex:1 1 260px;max-width:340px">
 <a class="logo" href="/"><img src="/assets/logo.png" alt="Field Ready QHSE home" width="55" height="40"></a>
 <span>{e(SITE['footer_blurb'])}</span>
-<span>{e(SITE['seller'])}, {e(SITE['location'])}</span>
+<span>{e(SITE['seller'])}</span>
 <a href="mailto:{EMAIL}" style="text-decoration:none;font-weight:700;color:#FFFFFF">{EMAIL}</a>
 </div>
 <nav aria-label="Footer">
@@ -167,7 +186,7 @@ def page(title, desc, body, path, current='', gumroad=False, og_image=''):
 <div><b>Courses</b><a href="/courses/">All courses</a>{course_links}</div>
 </nav>
 </div>
-<div class="wrap legalline">© {SITE['year']} {e(SITE['seller'])} · {e(SITE['location'])} · Payments are processed by Gumroad, our reseller and merchant of record, which handles payment, VAT and sales tax and issues your receipt.</div>
+<div class="wrap legalline">© {SITE['year']} {e(SITE['seller'])} · Payments are processed by Gumroad, our reseller and merchant of record, which handles payment, VAT and sales tax and issues your receipt.</div>
 </footer>
 <script src="/assets/site.js"></script>{gum}
 </body>
@@ -481,6 +500,18 @@ def home_page():
 def text_page(path, title, inner, current='', desc=''):
     return page(f'{title} | Field Ready QHSE', desc or f'{title} – Field Ready QHSE.', f'<article class="legal"><h1>{e(title)}</h1>{inner}</article>', path, current)
 
+def free_page():
+    # No free sample product exists yet. This page exists so older /free links
+    # (emails, videos) land on a working page instead of a 404. It does not
+    # offer a free download.
+    inner = (
+        '<p>A free sample pack is not available on this site at the moment.</p>'
+        '<p>You can browse our toolbox talks and other packs in the shop. Nothing is given away from this page.</p>'
+        '<p><a class="btn btn-primary btn-sm" href="/toolbox-talks/">Toolbox talks</a> '
+        '<a class="btn btn-outline btn-sm" href="/shop/">All products</a></p>'
+    )
+    return text_page('/free/', 'Free sample', inner, '', 'A free sample pack is not available at the moment. Browse toolbox talks and other packs in the shop.')
+
 # ---------------------------------------------------------------- static text pages (from catalogue.json "pages")
 def build_text_pages():
     for p in CAT['pages']:
@@ -553,6 +584,7 @@ def main():
     for f in FAM:
         write(url_of(f), product_page(f))
     build_text_pages()
+    write('/free/', free_page())
     write('/404.html', notfound())
     px = os.path.join(SRC, 'praxterra', 'build_praxterra.py')
     if os.path.isfile(px):
