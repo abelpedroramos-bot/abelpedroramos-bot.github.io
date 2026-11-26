@@ -210,6 +210,8 @@ def price_line(f, big=False):
     p = from_price(f)
     if f.get('status') == 'coming_soon' or p is None:
         return '<span class="price">Coming soon</span>'
+    if p == 0:
+        return '<span class="price">Free <small>(email required)</small></span>'
     pre = 'from ' if len(live_variants(f)) > 1 else ''
     return f'<span class="price">{pre}{eur(p)} <small>+ VAT (added at checkout for your country)</small></span>'
 
@@ -296,6 +298,8 @@ def buy_button(f, v):
     if f.get('status') != 'live' or v.get('status', 'live') != 'live':
         return '<p class="soon">Coming soon. This pack is still in final review and cannot be bought yet.</p>'
     label = f'Buy now – {eur(v["price_ex_vat"])} + VAT'
+    if float(v['price_ex_vat']) == 0:
+        label = 'Get it free'
     if v.get('gumroad_url'):
         return f'<a class="gumroad-button btn btn-primary btn-lg" href="{e(v["gumroad_url"])}" data-gumroad-overlay-checkout="true">{ic("dl")} {label}</a>'
     return f'<span class="btn btn-lg btn-disabled" aria-disabled="true">{ic("dl")} Available soon</span>'
@@ -350,8 +354,12 @@ def product_page(f):
         if v.get('includes'):
             head = v.get('includes_heading') or f'{v["name"]} includes'
             extra = f'<div class="box box-tint"><h3>{e(head)}</h3><ul class="checks">' + ''.join(f'<li>{ic("check", 18)}{e(x)}</li>' for x in v['includes']) + '</ul></div>'
-        price = (f'<div class="row" style="align-items:baseline"><span class="price">{eur(v["price_ex_vat"])}</span><span class="vat">+ VAT (added at checkout for your country)</span></div>'
-                 if f.get('status') == 'live' else '')
+        if f.get('status') != 'live':
+            price = ''
+        elif float(v['price_ex_vat']) == 0:
+            price = '<div class="row" style="align-items:baseline"><span class="price">Free</span><span class="vat">in exchange for your email · instant download</span></div>'
+        else:
+            price = f'<div class="row" style="align-items:baseline"><span class="price">{eur(v["price_ex_vat"])}</span><span class="vat">+ VAT (added at checkout for your country)</span></div>'
         name = f'<h3>{e(v["name"])}</h3>' if len(vs) > 1 else ''
         panels += f'<div class="vpanel" data-variant="{e(v["key"])}">{name}{price}{buy_button(f, v)}{extra}</div>'
     inc = ''.join(f'<li>{ic("check", 18)}{e(x)}</li>' for x in f['includes'])
@@ -539,16 +547,17 @@ def text_page(path, title, inner, current='', desc=''):
     return page(f'{title} | Field Ready QHSE', desc or f'{title} – Field Ready QHSE.', f'<article class="legal"><h1>{e(title)}</h1>{inner}</article>', path, current)
 
 def free_page():
-    # No free sample product exists yet. This page exists so older /free links
-    # (emails, videos) land on a working page instead of a 404. It does not
-    # offer a free download.
+    # Free Toolbox Talks Pack 01, delivered by Gumroad in exchange for an email address.
+    url = 'https://fieldreadyqhse.gumroad.com/l/pcedl'
     inner = (
-        '<p>A free sample pack is not available on this site at the moment.</p>'
-        '<p>You can browse our toolbox talks and other packs in the shop. Nothing is given away from this page.</p>'
-        '<p><a class="btn btn-primary btn-sm" href="/toolbox-talks/">Toolbox talks</a> '
-        '<a class="btn btn-outline btn-sm" href="/shop/">All products</a></p>'
+        '<h2>Construction Toolbox Talks Pack 01: Site Safety Essentials – 15 talks, free</h2>'
+        '<p>Fifteen short, practical toolbox talks with worker and speaker sheets: PPE, working at height, housekeeping and the site basics.</p>'
+        '<p>It is free in exchange for your email address. Enter your email at checkout and the download starts instantly.</p>'
+        f'<p><a class="gumroad-button btn btn-primary btn-lg" href="{url}" data-gumroad-overlay-checkout="true">Get the free pack</a></p>'
+        '<p><a href="/toolbox-talks/toolbox-talks-pack-01/">See what is inside</a> · <a href="/toolbox-talks/">All toolbox talks</a> · <a href="/shop/">All products</a></p>'
     )
-    return text_page('/free/', 'Free sample', inner, '', 'A free sample pack is not available at the moment. Browse toolbox talks and other packs in the shop.')
+    return page('Free Toolbox Talks Pack 01 | Field Ready QHSE', 'Construction Toolbox Talks Pack 01: Site Safety Essentials, 15 talks, free in exchange for your email. Instant download.',
+                f'<article class="legal"><h1>Free Toolbox Talks Pack</h1>{inner}</article>', '/free/', '', gumroad=True)
 
 # ---------------------------------------------------------------- static text pages (from catalogue.json "pages")
 def build_text_pages():
