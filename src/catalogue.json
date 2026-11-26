@@ -1754,7 +1754,7 @@
     {
      "key": "pack",
      "name": "Pack 01",
-     "price_ex_vat": 4.99,
+     "price_ex_vat": 0,
      "gumroad_url": "",
      "etsy_id": "4599521302",
      "status": "live",
